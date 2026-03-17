@@ -19,6 +19,7 @@ import {
   Shield,
   Twitter,
 } from 'lucide-react';
+import logo from '../Logo.png';
 import portrait from '../werner-francis-reineke.jpg';
 
 const canonicalUrl = 'https://wernerfrancisreineke.com/';
