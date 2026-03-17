@@ -7,7 +7,9 @@ import {
   ChevronRight,
   Cpu,
   Globe,
+  Instagram,
   Landmark,
+  Linkedin,
   Mail,
   MapPin,
   Menu,
@@ -15,6 +17,7 @@ import {
   Phone,
   ScanSearch,
   Shield,
+  Twitter,
 } from 'lucide-react';
 import portrait from '../werner-francis-reineke.jpg';
 
@@ -84,6 +87,14 @@ export default function WernerFrancisReinekeOnePager() {
       teamUrl: 'https://www.reineke-technik.de/unternehmen/',
       imprintLabel: 'Impressum von Reineke Technik',
       imprintUrl: 'https://www.reineke-technik.de/impressum/',
+      personalLinkedinLabel: 'Werner Reineke auf LinkedIn',
+      personalLinkedinUrl: 'https://www.linkedin.com/in/werner-reineke/',
+      instagramLabel: 'Reineke Technik auf Instagram',
+      instagramUrl: 'https://www.instagram.com/reineketechnik/',
+      companyLinkedinLabel: 'Reineke Technik auf LinkedIn',
+      companyLinkedinUrl: 'https://www.linkedin.com/company/reineke-technik/',
+      xLabel: 'Reineke Technik auf X',
+      xUrl: 'https://x.com/ReinekeTechnik',
       roles: [
         {
           title: 'Cybersecurity & Risiko',
@@ -204,6 +215,14 @@ export default function WernerFrancisReinekeOnePager() {
       teamUrl: 'https://www.reineke-technik.de/unternehmen/',
       imprintLabel: 'Reineke Technik imprint',
       imprintUrl: 'https://www.reineke-technik.de/impressum/',
+      personalLinkedinLabel: 'Werner Reineke on LinkedIn',
+      personalLinkedinUrl: 'https://www.linkedin.com/in/werner-reineke/',
+      instagramLabel: 'Reineke Technik on Instagram',
+      instagramUrl: 'https://www.instagram.com/reineketechnik/',
+      companyLinkedinLabel: 'Reineke Technik on LinkedIn',
+      companyLinkedinUrl: 'https://www.linkedin.com/company/reineke-technik/',
+      xLabel: 'Reineke Technik on X',
+      xUrl: 'https://x.com/ReinekeTechnik',
       roles: [
         {
           title: 'Cybersecurity & Risk',
@@ -610,6 +629,15 @@ export default function WernerFrancisReinekeOnePager() {
                 </p>
                 <div className="mt-6 flex flex-wrap gap-3">
                   <a
+                    href={t.personalLinkedinUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
+                  >
+                    <Linkedin className="h-4 w-4" />
+                    {t.personalLinkedinLabel}
+                  </a>
+                  <a
                     href={t.websiteUrl}
                     target="_blank"
                     rel="noreferrer"
@@ -635,6 +663,33 @@ export default function WernerFrancisReinekeOnePager() {
                   >
                     <Landmark className="h-4 w-4" />
                     {t.imprintLabel}
+                  </a>
+                  <a
+                    href={t.instagramUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
+                  >
+                    <Instagram className="h-4 w-4" />
+                    {t.instagramLabel}
+                  </a>
+                  <a
+                    href={t.companyLinkedinUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
+                  >
+                    <Linkedin className="h-4 w-4" />
+                    {t.companyLinkedinLabel}
+                  </a>
+                  <a
+                    href={t.xUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
+                  >
+                    <Twitter className="h-4 w-4" />
+                    {t.xLabel}
                   </a>
                 </div>
                 <p className="mt-5 max-w-2xl text-sm leading-7 text-white/75">
