@@ -7,6 +7,7 @@ import {
   Cpu,
   ExternalLink,
   Instagram,
+  Landmark,
   Linkedin,
   Mail,
   MapPin,
