@@ -31,26 +31,24 @@ export default function WernerFrancisReinekeOnePager() {
       navAbout: 'Profil',
       navServices: 'Kompetenzen',
       navInsights: 'Impulse',
-      navSocials: 'Socials',
       navContact: 'Kontakt',
       langDesktop: 'DE / EN',
       mobileMenu: 'Menü',
       heroTitle1: 'Werner Reineke',
-      heroTitle2: 'Cybersecurity,',
-      heroTitle3: 'Strategie und Umsetzung.',
+      heroTitle2: 'Cybersecurity, Strategie und Umsetzung.',
+      heroTitle3: '',
       slogan: 'REINEKE REGELT',
       heroText:
         'Werner Reineke begleitet Unternehmen an der Schnittstelle von Cybersecurity, Automatisierung und operativer Umsetzung. Auf dieser Website finden Interessenten einen kompakten Überblick über das Profil von Werner Francis Reineke, seine fachlichen Schwerpunkte und die Verbindung zur Reineke Technik GmbH.',
       heroPrimary: 'Kontakt aufnehmen',
       heroSecondary: 'Kompetenzen ansehen',
-      stat1Title: 'Cybersecurity',
+      stat1Title: 'Cybersec.',
       stat1Text: 'strategisch und operativ',
       stat2Title: 'KI & Prozesse',
       stat2Text: 'praxisnah automatisieren',
       stat3Title: 'Reineke Technik',
       stat3Text: 'stark vernetzt',
       portraitAlt: 'Portrait von Werner Francis Reineke',
-      portraitKicker: 'Persönliches Profil',
       portraitCaption: 'Vertrauen ist gut, Multi-Faktor-Authentifizierung ist besser.',
       aboutEyebrow: 'Profil',
       aboutTitle: 'Werner Reineke als Ansprechpartner für IT-Sicherheit, Resilienz und digitale Weiterentwicklung',
@@ -74,6 +72,8 @@ export default function WernerFrancisReinekeOnePager() {
         'Wer ein Gespräch zu Cybersecurity, IT-Sicherheitsstrategie, NIS-2, ISO 27001, Automatisierung oder zur Zusammenarbeit mit Reineke Technik sucht, findet hier den passenden Einstieg.',
       socialsEyebrow: 'Social Media',
       socialsTitle: 'Direkte Profile und Kanäle',
+      socialPersonalTitle: 'Persönlich',
+      socialCompanyTitle: 'Reineke Technik',
       contactBoxTitle: 'Kontakt',
       contactAddressLine1: 'Reineke Technik GmbH',
       contactAddressLine2: 'Geseker Straße 26',
@@ -142,9 +142,17 @@ export default function WernerFrancisReinekeOnePager() {
           category: 'MK Lasertechnik',
           href: 'https://www.mk-lasertechnik.de/digitale-sicherheit-als-teil-moderner-fertigung/',
         },
+        {
+          title: 'Video: Die hackersichere Bäckerei – Interview mit Werner Francis Reineke',
+          category: 'Bäckerwelt',
+          href: 'https://baeckerwelt.de/news/video-die-hackersichere-baeckerei-interview-mit-werner-francis-reineke/',
+        },
+        {
+          title: 'Werner Francis Reineke – Spezialist für Cybersecurity mit Praxiserfahrung',
+          category: 'Mentor Consulting',
+          href: 'https://www.mentor-consulting.de/news/2025/06/25/werner-francis-reineke-spezialist-fuer-cybersecurity/',
+        },
       ],
-      footerHint:
-        'Diese Website ist als personliche, suchmaschinenoptimierte Prasenz fur Werner Reineke und Werner Francis Reineke aufgebaut und verweist gezielt auf das Umfeld von Reineke Technik.',
     },
     en: {
       siteTitle: 'Werner Francis Reineke | Cybersecurity, AI Automation & Reineke Technik',
@@ -153,26 +161,24 @@ export default function WernerFrancisReinekeOnePager() {
       navAbout: 'Profile',
       navServices: 'Expertise',
       navInsights: 'Insights',
-      navSocials: 'Socials',
       navContact: 'Contact',
       langDesktop: 'EN / DE',
       mobileMenu: 'Menu',
       heroTitle1: 'Werner Reineke',
-      heroTitle2: 'Cybersecurity,',
-      heroTitle3: 'strategy and execution.',
+      heroTitle2: 'Cybersecurity, strategy and execution.',
+      heroTitle3: '',
       slogan: 'REINEKE REGELT',
       heroText:
         'Werner Reineke supports companies at the intersection of cybersecurity, automation, and practical execution. This website gives visitors a focused overview of Werner Francis Reineke, his core competencies, and the connection to Reineke Technik GmbH.',
       heroPrimary: 'Get in touch',
       heroSecondary: 'View expertise',
-      stat1Title: 'Cybersecurity',
+      stat1Title: 'Cybersec.',
       stat1Text: 'strategic and operational',
       stat2Title: 'AI & Processes',
       stat2Text: 'automation with practical value',
       stat3Title: 'Reineke Technik',
       stat3Text: 'closely connected',
       portraitAlt: 'Portrait of Werner Francis Reineke',
-      portraitKicker: 'Personal profile',
       portraitCaption: 'Trust is good, multi-factor authentication is better.',
       aboutEyebrow: 'Profile',
       aboutTitle: 'Werner Reineke as a contact for IT security, resilience, and digital progress',
@@ -196,6 +202,8 @@ export default function WernerFrancisReinekeOnePager() {
         'If you are looking for an exchange on cybersecurity, IT security strategy, NIS-2, ISO 27001, automation, or collaboration with Reineke Technik, this is the right starting point.',
       socialsEyebrow: 'Social Media',
       socialsTitle: 'Direct profiles and channels',
+      socialPersonalTitle: 'Personal',
+      socialCompanyTitle: 'Reineke Technik',
       contactBoxTitle: 'Contact',
       contactAddressLine1: 'Reineke Technik GmbH',
       contactAddressLine2: 'Geseker Straße 26',
@@ -264,9 +272,17 @@ export default function WernerFrancisReinekeOnePager() {
           category: 'MK Lasertechnik',
           href: 'https://www.mk-lasertechnik.de/digitale-sicherheit-als-teil-moderner-fertigung/',
         },
+        {
+          title: 'Video: The Hacker-Proof Bakery – Interview with Werner Francis Reineke',
+          category: 'Bäckerwelt',
+          href: 'https://baeckerwelt.de/news/video-die-hackersichere-baeckerei-interview-mit-werner-francis-reineke/',
+        },
+        {
+          title: 'Werner Francis Reineke – Cybersecurity Specialist with Practical Experience',
+          category: 'Mentor Consulting',
+          href: 'https://www.mentor-consulting.de/news/2025/06/25/werner-francis-reineke-spezialist-fuer-cybersecurity/',
+        },
       ],
-      footerHint:
-        'This website is built as a personal, search-optimized presence for Werner Reineke and Werner Francis Reineke with deliberate references to the Reineke Technik ecosystem.',
     },
   };
 
@@ -386,7 +402,6 @@ export default function WernerFrancisReinekeOnePager() {
             <a href="#about" className="transition hover:text-[#b91c1c]">{t.navAbout}</a>
             <a href="#services" className="transition hover:text-[#b91c1c]">{t.navServices}</a>
             <a href="#articles" className="transition hover:text-[#b91c1c]">{t.navInsights}</a>
-            <a href="#socials" className="transition hover:text-[#b91c1c]">{t.navSocials}</a>
             <button
               onClick={toggleLanguage}
               className="rounded-full border border-[#b91c1c]/15 px-3 py-2 text-xs font-semibold text-[#b91c1c] transition hover:bg-[#b91c1c]/5"
@@ -417,14 +432,15 @@ export default function WernerFrancisReinekeOnePager() {
         <section className="px-4 pb-14 pt-10 sm:px-6 sm:pb-20 sm:pt-16 lg:px-8 lg:pt-20">
           <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16">
             <motion.div {...fadeUp}>
-              <h1 className="max-w-3xl text-4xl font-semibold leading-[1.02] tracking-tight sm:text-5xl lg:text-6xl">
-                <span className="mb-4 block text-base font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-lg" style={{ fontFamily: '"Avenir Next Condensed", "Arial Narrow", "Avenir Next", sans-serif' }}>
+              <h1 className="max-w-4xl text-5xl font-semibold leading-[0.98] tracking-tight sm:text-6xl lg:text-7xl">
+                <span className="mb-4 block text-3xl font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-4xl lg:text-5xl" style={{ fontFamily: '"Avenir Next Condensed", "Arial Narrow", "Avenir Next", sans-serif' }}>
                   {t.slogan}
                 </span>
-                {t.heroTitle1}
-                <span className="mt-2 block text-[#b91c1c]">{t.heroTitle2}</span>
-                <span className="mt-2 block text-neutral-950">{t.heroTitle3}</span>
+                <span className="block text-neutral-950">{t.heroTitle1}</span>
               </h1>
+              <p className="mt-4 max-w-2xl text-lg font-medium leading-8 text-[#b91c1c] sm:text-xl">
+                {t.heroTitle2}
+              </p>
               <p className="mt-5 max-w-2xl text-[15px] leading-7 text-neutral-600 sm:mt-6 sm:text-lg sm:leading-8">
                 {t.heroText}
               </p>
@@ -465,8 +481,7 @@ export default function WernerFrancisReinekeOnePager() {
                     />
                   </div>
                   <div className="flex flex-col justify-end p-6 sm:p-8">
-                    <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#b91c1c]">{t.portraitKicker}</div>
-                    <p className="mt-4 text-2xl font-semibold leading-10 text-neutral-900 sm:text-3xl">
+                    <p className="text-2xl font-semibold leading-10 text-neutral-900 sm:text-3xl">
                       {t.portraitCaption}
                     </p>
                   </div>
@@ -572,68 +587,6 @@ export default function WernerFrancisReinekeOnePager() {
           </div>
         </section>
 
-        <section id="socials" className="px-4 py-10 sm:px-6 sm:py-16 lg:px-8">
-          <div className="mx-auto max-w-6xl">
-            <motion.div
-              {...fadeUp}
-              className="border-y border-neutral-300/80 py-8 sm:py-10"
-            >
-              <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#b91c1c] sm:text-xs">{t.socialsEyebrow}</div>
-              <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">{t.socialsTitle}</h2>
-              <div className="mt-8 flex flex-wrap items-center gap-6 sm:gap-8">
-                <a
-                  href={t.personalLinkedinUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="group inline-flex items-center gap-3"
-                  aria-label={t.personalLinkedinLabel}
-                >
-                  <span className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-[#c81e1e] text-white shadow-[0_18px_40px_-28px_rgba(185,28,28,0.55)] sm:h-20 sm:w-20">
-                    <Linkedin className="h-10 w-10 sm:h-11 sm:w-11" />
-                  </span>
-                  <ExternalLink className="h-7 w-7 text-neutral-900 transition group-hover:text-[#b91c1c]" />
-                </a>
-                <a
-                  href={t.instagramUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="group inline-flex items-center gap-3"
-                  aria-label={t.instagramLabel}
-                >
-                  <span className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-[#c81e1e] text-white shadow-[0_18px_40px_-28px_rgba(185,28,28,0.55)] sm:h-20 sm:w-20">
-                    <Instagram className="h-10 w-10 sm:h-11 sm:w-11" />
-                  </span>
-                  <ExternalLink className="h-7 w-7 text-neutral-900 transition group-hover:text-[#b91c1c]" />
-                </a>
-                <a
-                  href={t.companyLinkedinUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="group inline-flex items-center gap-3"
-                  aria-label={t.companyLinkedinLabel}
-                >
-                  <span className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-[#c81e1e] text-white shadow-[0_18px_40px_-28px_rgba(185,28,28,0.55)] sm:h-20 sm:w-20">
-                    <Linkedin className="h-10 w-10 sm:h-11 sm:w-11" />
-                  </span>
-                  <ExternalLink className="h-7 w-7 text-neutral-900 transition group-hover:text-[#b91c1c]" />
-                </a>
-                <a
-                  href={t.xUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="group inline-flex items-center gap-3"
-                  aria-label={t.xLabel}
-                >
-                  <span className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full text-[#c81e1e] sm:h-20 sm:w-20">
-                    <Twitter className="h-14 w-14 stroke-[1.75] sm:h-16 sm:w-16" />
-                  </span>
-                  <ExternalLink className="h-7 w-7 text-neutral-900 transition group-hover:text-[#b91c1c]" />
-                </a>
-              </div>
-            </motion.div>
-          </div>
-        </section>
-
         <section id="contact" className="px-4 pb-20 pt-4 sm:px-6 sm:pb-24 lg:px-8">
           <motion.div
             {...fadeUp}
@@ -645,9 +598,6 @@ export default function WernerFrancisReinekeOnePager() {
                 <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">{t.ctaTitle}</h2>
                 <p className="mt-4 max-w-2xl text-[15px] leading-7 text-white/80 sm:text-lg sm:leading-8">
                   {t.ctaText}
-                </p>
-                <p className="mt-5 max-w-2xl text-sm leading-7 text-white/75">
-                  {t.footerHint}
                 </p>
               </div>
               <div className="rounded-[1.25rem] border border-white/15 bg-white/10 p-5 text-sm leading-7 text-white/90 backdrop-blur sm:rounded-[1.5rem]">
@@ -675,6 +625,77 @@ export default function WernerFrancisReinekeOnePager() {
               </div>
             </div>
           </motion.div>
+        </section>
+
+        <section id="socials" className="px-4 pb-20 pt-2 sm:px-6 sm:pb-24 lg:px-8">
+          <div className="mx-auto max-w-6xl">
+            <motion.div {...fadeUp} className="border-t border-neutral-300/80 pt-8 sm:pt-10">
+              <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#b91c1c] sm:text-xs">{t.socialsEyebrow}</div>
+              <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">{t.socialsTitle}</h2>
+
+              <div className="mt-8 grid gap-8 lg:grid-cols-2">
+                <div className="rounded-[1.75rem] border border-[#b91c1c]/12 bg-white p-6 shadow-sm sm:p-8">
+                  <div className="text-sm font-semibold uppercase tracking-[0.24em] text-[#b91c1c]">{t.socialPersonalTitle}</div>
+                  <div className="mt-6 flex flex-wrap items-center gap-6">
+                    <a
+                      href={t.personalLinkedinUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="group inline-flex items-center gap-3"
+                      aria-label={t.personalLinkedinLabel}
+                    >
+                      <span className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-[#c81e1e] text-white shadow-[0_18px_40px_-28px_rgba(185,28,28,0.55)] sm:h-20 sm:w-20">
+                        <Linkedin className="h-10 w-10 sm:h-11 sm:w-11" />
+                      </span>
+                      <ExternalLink className="h-7 w-7 text-neutral-900 transition group-hover:text-[#b91c1c]" />
+                    </a>
+                  </div>
+                </div>
+
+                <div className="rounded-[1.75rem] border border-[#b91c1c]/12 bg-white p-6 shadow-sm sm:p-8">
+                  <div className="text-sm font-semibold uppercase tracking-[0.24em] text-[#b91c1c]">{t.socialCompanyTitle}</div>
+                  <div className="mt-6 flex flex-wrap items-center gap-6">
+                    <a
+                      href={t.instagramUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="group inline-flex items-center gap-3"
+                      aria-label={t.instagramLabel}
+                    >
+                      <span className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-[#c81e1e] text-white shadow-[0_18px_40px_-28px_rgba(185,28,28,0.55)] sm:h-20 sm:w-20">
+                        <Instagram className="h-10 w-10 sm:h-11 sm:w-11" />
+                      </span>
+                      <ExternalLink className="h-7 w-7 text-neutral-900 transition group-hover:text-[#b91c1c]" />
+                    </a>
+                    <a
+                      href={t.companyLinkedinUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="group inline-flex items-center gap-3"
+                      aria-label={t.companyLinkedinLabel}
+                    >
+                      <span className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-[#c81e1e] text-white shadow-[0_18px_40px_-28px_rgba(185,28,28,0.55)] sm:h-20 sm:w-20">
+                        <Linkedin className="h-10 w-10 sm:h-11 sm:w-11" />
+                      </span>
+                      <ExternalLink className="h-7 w-7 text-neutral-900 transition group-hover:text-[#b91c1c]" />
+                    </a>
+                    <a
+                      href={t.xUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="group inline-flex items-center gap-3"
+                      aria-label={t.xLabel}
+                    >
+                      <span className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full text-[#c81e1e] sm:h-20 sm:w-20">
+                        <Twitter className="h-14 w-14 stroke-[1.75] sm:h-16 sm:w-16" />
+                      </span>
+                      <ExternalLink className="h-7 w-7 text-neutral-900 transition group-hover:text-[#b91c1c]" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
         </section>
       </main>
     </div>
