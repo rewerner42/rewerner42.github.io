@@ -26,7 +26,6 @@ export default function WernerFrancisReinekeOnePager() {
       siteTitle: 'Werner Francis Reineke | Cybersecurity, KI-Automatisierung & Reineke Technik',
       siteDescription:
         'Offizielle Website von Werner Reineke und Werner Francis Reineke. Cybersecurity, IT-Sicherheitsstrategie, KI-Automatisierung und Unternehmenspraxis aus dem Umfeld der Reineke Technik GmbH.',
-      brandSub: 'Persönliche Website von Werner Reineke',
       navAbout: 'Profil',
       navServices: 'Kompetenzen',
       navReferences: 'Schwerpunkte',
@@ -35,9 +34,10 @@ export default function WernerFrancisReinekeOnePager() {
       langDesktop: 'DE / EN',
       mobileMenu: 'Menü',
       heroBadge: 'Werner Reineke · Cybersecurity · KI-Automatisierung · Mittelstand',
-      heroTitle1: 'Werner Francis Reineke',
-      heroTitle2: 'steht für moderne',
-      heroTitle3: 'IT-Sicherheit mit unternehmerischem Blick.',
+      heroTitle1: 'Werner Reineke',
+      heroTitle2: 'Cybersecurity,',
+      heroTitle3: 'Strategie und Umsetzung.',
+      slogan: 'REINEKE REGELT',
       heroText:
         'Werner Reineke begleitet Unternehmen an der Schnittstelle von Cybersecurity, Automatisierung und operativer Umsetzung. Auf dieser Website finden Interessenten einen kompakten Überblick über das Profil von Werner Francis Reineke, seine fachlichen Schwerpunkte und die Verbindung zur Reineke Technik GmbH.',
       heroPrimary: 'Kontakt aufnehmen',
@@ -146,7 +146,6 @@ export default function WernerFrancisReinekeOnePager() {
       siteTitle: 'Werner Francis Reineke | Cybersecurity, AI Automation & Reineke Technik',
       siteDescription:
         'Official website of Werner Reineke and Werner Francis Reineke. Cybersecurity, IT security strategy, AI automation, and business-focused technology leadership connected to Reineke Technik GmbH.',
-      brandSub: 'Personal website of Werner Reineke',
       navAbout: 'Profile',
       navServices: 'Expertise',
       navReferences: 'Focus',
@@ -155,9 +154,10 @@ export default function WernerFrancisReinekeOnePager() {
       langDesktop: 'EN / DE',
       mobileMenu: 'Menu',
       heroBadge: 'Werner Reineke · Cybersecurity · AI automation · SME focus',
-      heroTitle1: 'Werner Francis Reineke',
-      heroTitle2: 'stands for modern',
-      heroTitle3: 'IT security with business clarity.',
+      heroTitle1: 'Werner Reineke',
+      heroTitle2: 'Cybersecurity,',
+      heroTitle3: 'strategy and execution.',
+      slogan: 'REINEKE REGELT',
       heroText:
         'Werner Reineke supports companies at the intersection of cybersecurity, automation, and practical execution. This website gives visitors a focused overview of Werner Francis Reineke, his core competencies, and the connection to Reineke Technik GmbH.',
       heroPrimary: 'Get in touch',
@@ -370,11 +370,10 @@ export default function WernerFrancisReinekeOnePager() {
 
       <header className="sticky top-0 z-50 border-b border-[#b91c1c]/10 bg-[#faf8f6]/85 backdrop-blur-xl">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-          <a href="#top" className="min-w-0">
+          <a href="#top" className="min-w-0 text-center md:absolute md:left-1/2 md:-translate-x-1/2">
             <div className="truncate text-[11px] font-semibold uppercase tracking-[0.24em] text-[#b91c1c] sm:text-xs">
               Werner Francis Reineke
             </div>
-            <div className="hidden text-[11px] text-neutral-500 sm:block">{t.brandSub}</div>
           </a>
 
           <nav className="hidden items-center gap-6 text-sm text-neutral-600 md:flex">
@@ -415,6 +414,12 @@ export default function WernerFrancisReinekeOnePager() {
               <div className="mb-4 inline-flex items-center rounded-full border border-[#b91c1c]/15 bg-[#b91c1c]/5 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.24em] text-[#b91c1c] sm:text-xs">
                 {t.heroBadge}
               </div>
+              <div className="mb-5 flex items-center gap-4">
+                <img src={logo} alt="Reineke Technik Logo" className="h-10 w-auto sm:h-12" />
+                <div className="text-base font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-lg">
+                  {t.slogan}
+                </div>
+              </div>
               <h1 className="max-w-3xl text-4xl font-semibold leading-[1.02] tracking-tight sm:text-5xl lg:text-6xl">
                 {t.heroTitle1}
                 <span className="mt-2 block text-[#b91c1c]">{t.heroTitle2}</span>
@@ -434,15 +439,15 @@ export default function WernerFrancisReinekeOnePager() {
               </div>
 
               <div className="mt-7 grid max-w-xl grid-cols-2 gap-3 sm:mt-8 sm:grid-cols-3">
-                <div className="rounded-2xl border border-[#b91c1c]/12 bg-white p-4 shadow-sm">
+                <div className="rounded-2xl border border-[#b91c1c]/12 bg-white p-4 text-center shadow-sm">
                   <div className="text-2xl font-semibold text-[#b91c1c]">{t.stat1Title}</div>
                   <div className="mt-1 text-sm text-neutral-500">{t.stat1Text}</div>
                 </div>
-                <div className="rounded-2xl border border-[#b91c1c]/12 bg-white p-4 shadow-sm">
+                <div className="rounded-2xl border border-[#b91c1c]/12 bg-white p-4 text-center shadow-sm">
                   <div className="text-2xl font-semibold text-[#b91c1c]">{t.stat2Title}</div>
                   <div className="mt-1 text-sm text-neutral-500">{t.stat2Text}</div>
                 </div>
-                <div className="col-span-2 rounded-2xl border border-[#b91c1c]/12 bg-white p-4 shadow-sm sm:col-span-1">
+                <div className="col-span-2 rounded-2xl border border-[#b91c1c]/12 bg-white p-4 text-center shadow-sm sm:col-span-1">
                   <div className="text-2xl font-semibold text-[#b91c1c]">{t.stat3Title}</div>
                   <div className="mt-1 text-sm text-neutral-500">{t.stat3Text}</div>
                 </div>
@@ -489,9 +494,9 @@ export default function WernerFrancisReinekeOnePager() {
                     key={role.title}
                     {...fadeUp}
                     transition={{ duration: 0.45, delay: index * 0.05 }}
-                    className="group rounded-[1.5rem] border border-[#b91c1c]/12 bg-white p-5 shadow-sm transition hover:border-[#b91c1c]/25 hover:shadow-[0_18px_40px_-24px_rgba(185,28,28,0.45)] sm:rounded-[1.75rem] sm:p-6"
+                    className="group rounded-[1.5rem] border border-[#b91c1c]/12 bg-white p-5 text-center shadow-sm transition hover:border-[#b91c1c]/25 hover:shadow-[0_18px_40px_-24px_rgba(185,28,28,0.45)] sm:rounded-[1.75rem] sm:p-6"
                   >
-                    <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-2xl bg-[#b91c1c]/8 text-[#b91c1c] transition group-hover:bg-[#b91c1c] group-hover:text-white">
+                    <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-2xl bg-[#b91c1c]/8 text-[#b91c1c] transition group-hover:bg-[#b91c1c] group-hover:text-white">
                       <Icon className="h-5 w-5" />
                     </div>
                     <h3 className="text-lg font-semibold sm:text-xl">{role.title}</h3>
@@ -521,9 +526,9 @@ export default function WernerFrancisReinekeOnePager() {
                     key={topic.title}
                     {...fadeUp}
                     transition={{ duration: 0.45, delay: index * 0.05 }}
-                    className="rounded-[1.5rem] border border-[#b91c1c]/10 bg-white p-5 shadow-sm sm:rounded-[1.75rem] sm:p-6"
+                    className="rounded-[1.5rem] border border-[#b91c1c]/10 bg-white p-5 text-center shadow-sm sm:rounded-[1.75rem] sm:p-6"
                   >
-                    <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-2xl bg-[#b91c1c]/10 text-[#b91c1c]">
+                    <div className="mx-auto mb-4 flex h-11 w-11 items-center justify-center rounded-2xl bg-[#b91c1c]/10 text-[#b91c1c]">
                       <Icon className="h-5 w-5" />
                     </div>
                     <h3 className="text-lg font-semibold leading-snug sm:text-xl">{topic.title}</h3>
