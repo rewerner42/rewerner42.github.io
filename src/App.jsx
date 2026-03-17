@@ -16,9 +16,8 @@ import {
   ScanSearch,
   Shield,
 } from 'lucide-react';
-import logo from '../Logo.png';
+import portrait from '../werner-francis-reineke.jpg';
 
-const portraitFileName = '/werner-francis-reineke-portrait.jpg';
 const canonicalUrl = 'https://wernerfrancisreineke.com/';
 
 export default function WernerFrancisReinekeOnePager() {
@@ -53,8 +52,6 @@ export default function WernerFrancisReinekeOnePager() {
       portraitKicker: 'Persönliches Profil',
       portraitCaption:
         'Werner Francis Reineke verbindet technische Tiefe mit unternehmerischer Verantwortung und klarer Umsetzung im Mittelstand.',
-      portraitFallback:
-        'Für die finale Live-Version kann das zugesandte Portrait einfach als /werner-francis-reineke-portrait.jpg im Projekt abgelegt werden.',
       aboutEyebrow: 'Profil',
       aboutTitle: 'Werner Reineke als Ansprechpartner für IT-Sicherheit, Resilienz und digitale Weiterentwicklung',
       aboutText:
@@ -175,8 +172,6 @@ export default function WernerFrancisReinekeOnePager() {
       portraitKicker: 'Personal profile',
       portraitCaption:
         'Werner Francis Reineke combines technical depth, entrepreneurial responsibility, and practical execution for modern businesses.',
-      portraitFallback:
-        'For the final live version, the provided portrait can simply be stored in the project as /werner-francis-reineke-portrait.jpg.',
       aboutEyebrow: 'Profile',
       aboutTitle: 'Werner Reineke as a contact for IT security, resilience, and digital progress',
       aboutText:
@@ -281,8 +276,6 @@ export default function WernerFrancisReinekeOnePager() {
   };
 
   const [language, setLanguage] = useState('de');
-  const [portraitSrc, setPortraitSrc] = useState(portraitFileName);
-
   useEffect(() => {
     setLanguage(detectLanguage());
   }, []);
@@ -339,7 +332,7 @@ export default function WernerFrancisReinekeOnePager() {
       name: 'Werner Francis Reineke',
       alternateName: ['Werner Reineke'],
       url: canonicalUrl,
-      image: `${canonicalUrl}werner-francis-reineke-portrait.jpg`,
+      image: `${canonicalUrl}werner-francis-reineke.jpg`,
       worksFor: {
         '@type': 'Organization',
         name: 'Reineke Technik GmbH',
@@ -461,10 +454,9 @@ export default function WernerFrancisReinekeOnePager() {
                 <div className="grid gap-0 lg:grid-cols-[1fr_0.92fr]">
                   <div className="aspect-[4/5] min-h-[420px] bg-[linear-gradient(180deg,#fff6f4_0%,#ffffff_38%,#f3f4f6_100%)]">
                     <img
-                      src={portraitSrc}
+                      src={portrait}
                       alt={t.portraitAlt}
                       className="h-full w-full object-cover"
-                      onError={() => setPortraitSrc(logo)}
                     />
                   </div>
                   <div className="flex flex-col justify-end p-6 sm:p-8">
@@ -472,9 +464,6 @@ export default function WernerFrancisReinekeOnePager() {
                     <p className="mt-4 text-lg font-semibold leading-8 text-neutral-900">
                       {t.portraitCaption}
                     </p>
-                    {portraitSrc === logo ? (
-                      <p className="mt-4 text-sm leading-6 text-neutral-500">{t.portraitFallback}</p>
-                    ) : null}
                   </div>
                 </div>
               </div>
