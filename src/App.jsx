@@ -127,16 +127,19 @@ export default function WernerFrancisReinekeOnePager() {
       ],
       articles: [
         {
-          title: 'Wie Unternehmen IT-Sicherheit strategisch und trotzdem pragmatisch aufbauen',
+          title: 'NIS-2 Compliance im Unternehmen',
           category: 'Cybersecurity',
+          href: 'https://www.reineke-technik.de/nis-2-compliance-im-unternehmen/',
         },
         {
-          title: 'Warum KI-Automatisierung erst mit klaren Prozessen echten Nutzen schafft',
-          category: 'Automatisierung',
+          title: 'Warum eine Backup-Strategie heute unverzichtbar ist',
+          category: 'Reineke Technik',
+          href: 'https://www.reineke-technik.de/warum-eine-backup-strategie-heute-unverzichtbar-ist/',
         },
         {
-          title: 'Welche Rolle unternehmerische Verantwortung in modernen Sicherheitsprojekten spielt',
-          category: 'Management',
+          title: 'Digitale Sicherheit als Teil moderner Fertigung',
+          category: 'MK Lasertechnik',
+          href: 'https://www.mk-lasertechnik.de/digitale-sicherheit-als-teil-moderner-fertigung/',
         },
       ],
       footerHint:
@@ -246,16 +249,19 @@ export default function WernerFrancisReinekeOnePager() {
       ],
       articles: [
         {
-          title: 'How companies can build IT security strategically without losing pragmatism',
+          title: 'NIS-2 Compliance in Business',
           category: 'Cybersecurity',
+          href: 'https://www.reineke-technik.de/nis-2-compliance-im-unternehmen/',
         },
         {
-          title: 'Why AI automation only creates value when processes are clearly defined',
-          category: 'Automation',
+          title: 'Why a Backup Strategy Is Essential Today',
+          category: 'Reineke Technik',
+          href: 'https://www.reineke-technik.de/warum-eine-backup-strategie-heute-unverzichtbar-ist/',
         },
         {
-          title: 'Why entrepreneurial responsibility matters in modern security programs',
-          category: 'Management',
+          title: 'Digital Security as Part of Modern Manufacturing',
+          category: 'MK Lasertechnik',
+          href: 'https://www.mk-lasertechnik.de/digitale-sicherheit-als-teil-moderner-fertigung/',
         },
       ],
       footerHint:
@@ -576,18 +582,21 @@ export default function WernerFrancisReinekeOnePager() {
 
             <div className="mt-8 grid gap-4 sm:mt-10 md:grid-cols-3 sm:gap-6">
               {t.articles.map((article, index) => (
-                <motion.article
+                <motion.a
                   key={article.title}
+                  href={article.href}
+                  target="_blank"
+                  rel="noreferrer"
                   {...fadeUp}
                   transition={{ duration: 0.45, delay: index * 0.05 }}
-                  className="rounded-[1.5rem] border border-[#b91c1c]/12 bg-white p-5 shadow-sm sm:rounded-[1.75rem] sm:p-6"
+                  className="block rounded-[1.5rem] border border-[#b91c1c]/12 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-[#b91c1c]/25 hover:shadow-[0_18px_40px_-30px_rgba(185,28,28,0.35)] sm:rounded-[1.75rem] sm:p-6"
                 >
                   <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#b91c1c] sm:text-xs">{article.category}</div>
                   <h3 className="mt-4 text-lg font-semibold leading-snug sm:text-xl">{article.title}</h3>
                   <div className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-[#b91c1c]">
                     {t.readMore} <ChevronRight className="h-4 w-4" />
                   </div>
-                </motion.article>
+                </motion.a>
               ))}
             </div>
           </div>
