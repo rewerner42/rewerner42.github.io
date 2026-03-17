@@ -19,7 +19,6 @@ import {
   Shield,
   Twitter,
 } from 'lucide-react';
-import logo from '../Logo.png';
 import portrait from '../werner-francis-reineke.jpg';
 
 const canonicalUrl = 'https://wernerfrancisreineke.com/';
@@ -37,7 +36,6 @@ export default function WernerFrancisReinekeOnePager() {
       navContact: 'Kontakt',
       langDesktop: 'DE / EN',
       mobileMenu: 'Menü',
-      heroBadge: 'Werner Reineke · Cybersecurity · KI-Automatisierung · Mittelstand',
       heroTitle1: 'Werner Reineke',
       heroTitle2: 'Cybersecurity,',
       heroTitle3: 'Strategie und Umsetzung.',
@@ -54,8 +52,7 @@ export default function WernerFrancisReinekeOnePager() {
       stat3Text: 'stark vernetzt',
       portraitAlt: 'Portrait von Werner Francis Reineke',
       portraitKicker: 'Persönliches Profil',
-      portraitCaption:
-        'Werner Francis Reineke verbindet technische Tiefe mit unternehmerischer Verantwortung und klarer Umsetzung im Mittelstand.',
+      portraitCaption: 'Vertrauen ist gut, Multi-Faktor-Authentifizierung ist besser.',
       aboutEyebrow: 'Profil',
       aboutTitle: 'Werner Reineke als Ansprechpartner für IT-Sicherheit, Resilienz und digitale Weiterentwicklung',
       aboutText:
@@ -165,7 +162,6 @@ export default function WernerFrancisReinekeOnePager() {
       navContact: 'Contact',
       langDesktop: 'EN / DE',
       mobileMenu: 'Menu',
-      heroBadge: 'Werner Reineke · Cybersecurity · AI automation · SME focus',
       heroTitle1: 'Werner Reineke',
       heroTitle2: 'Cybersecurity,',
       heroTitle3: 'strategy and execution.',
@@ -182,8 +178,7 @@ export default function WernerFrancisReinekeOnePager() {
       stat3Text: 'closely connected',
       portraitAlt: 'Portrait of Werner Francis Reineke',
       portraitKicker: 'Personal profile',
-      portraitCaption:
-        'Werner Francis Reineke combines technical depth, entrepreneurial responsibility, and practical execution for modern businesses.',
+      portraitCaption: 'Trust is good, multi-factor authentication is better.',
       aboutEyebrow: 'Profile',
       aboutTitle: 'Werner Reineke as a contact for IT security, resilience, and digital progress',
       aboutText:
@@ -390,7 +385,7 @@ export default function WernerFrancisReinekeOnePager() {
 
       <header className="sticky top-0 z-50 border-b border-[#b91c1c]/10 bg-[#faf8f6]/85 backdrop-blur-xl">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-          <a href="#top" className="min-w-0 text-center md:absolute md:left-1/2 md:-translate-x-1/2">
+          <a href="#top" className="min-w-0">
             <div className="truncate text-[11px] font-semibold uppercase tracking-[0.24em] text-[#b91c1c] sm:text-xs">
               Werner Francis Reineke
             </div>
@@ -431,12 +426,8 @@ export default function WernerFrancisReinekeOnePager() {
         <section className="px-4 pb-14 pt-10 sm:px-6 sm:pb-20 sm:pt-16 lg:px-8 lg:pt-20">
           <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16">
             <motion.div {...fadeUp}>
-              <div className="mb-4 inline-flex items-center rounded-full border border-[#b91c1c]/15 bg-[#b91c1c]/5 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.24em] text-[#b91c1c] sm:text-xs">
-                {t.heroBadge}
-              </div>
-              <div className="mb-5 flex items-center gap-4">
-                <img src={logo} alt="Reineke Technik Logo" className="h-10 w-auto sm:h-12" />
-                <div className="text-base font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-lg">
+              <div className="mb-5">
+                <div className="text-base font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-lg" style={{ fontFamily: '"Avenir Next Condensed", "Arial Narrow", "Avenir Next", sans-serif' }}>
                   {t.slogan}
                 </div>
               </div>
@@ -486,7 +477,7 @@ export default function WernerFrancisReinekeOnePager() {
                   </div>
                   <div className="flex flex-col justify-end p-6 sm:p-8">
                     <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#b91c1c]">{t.portraitKicker}</div>
-                    <p className="mt-4 text-lg font-semibold leading-8 text-neutral-900">
+                    <p className="mt-4 text-2xl font-semibold leading-10 text-neutral-900 sm:text-3xl">
                       {t.portraitCaption}
                     </p>
                   </div>
