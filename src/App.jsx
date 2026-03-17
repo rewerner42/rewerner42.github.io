@@ -3,12 +3,10 @@ import { motion } from 'framer-motion';
 import {
   ArrowRight,
   Briefcase,
-  Building2,
   ChevronRight,
   Cpu,
-  Globe,
+  ExternalLink,
   Instagram,
-  Landmark,
   Linkedin,
   Mail,
   MapPin,
@@ -31,8 +29,8 @@ export default function WernerFrancisReinekeOnePager() {
         'Offizielle Website von Werner Reineke und Werner Francis Reineke. Cybersecurity, IT-Sicherheitsstrategie, KI-Automatisierung und Unternehmenspraxis aus dem Umfeld der Reineke Technik GmbH.',
       navAbout: 'Profil',
       navServices: 'Kompetenzen',
-      navReferences: 'Schwerpunkte',
       navInsights: 'Impulse',
+      navSocials: 'Socials',
       navContact: 'Kontakt',
       langDesktop: 'DE / EN',
       mobileMenu: 'Menü',
@@ -73,18 +71,14 @@ export default function WernerFrancisReinekeOnePager() {
       ctaTitle: 'Kontakt zu Werner Francis Reineke und Reineke Technik',
       ctaText:
         'Wer ein Gespräch zu Cybersecurity, IT-Sicherheitsstrategie, NIS-2, ISO 27001, Automatisierung oder zur Zusammenarbeit mit Reineke Technik sucht, findet hier den passenden Einstieg.',
+      socialsEyebrow: 'Social Media',
+      socialsTitle: 'Direkte Profile und Kanäle',
       contactBoxTitle: 'Kontakt',
       contactAddressLine1: 'Reineke Technik GmbH',
       contactAddressLine2: 'Geseker Straße 26',
       contactAddressLine3: '33154 Salzkotten',
       contactEmail: 'info@reineke-technik.de',
       contactPhone: '+49 (0) 5258 987-282',
-      websiteLabel: 'Website von Reineke Technik',
-      websiteUrl: 'https://www.reineke-technik.de/',
-      teamLabel: 'Unternehmensprofil von Reineke Technik',
-      teamUrl: 'https://www.reineke-technik.de/unternehmen/',
-      imprintLabel: 'Impressum von Reineke Technik',
-      imprintUrl: 'https://www.reineke-technik.de/impressum/',
       personalLinkedinLabel: 'Werner Reineke auf LinkedIn',
       personalLinkedinUrl: 'https://www.linkedin.com/in/werner-reineke/',
       instagramLabel: 'Reineke Technik auf Instagram',
@@ -157,8 +151,8 @@ export default function WernerFrancisReinekeOnePager() {
         'Official website of Werner Reineke and Werner Francis Reineke. Cybersecurity, IT security strategy, AI automation, and business-focused technology leadership connected to Reineke Technik GmbH.',
       navAbout: 'Profile',
       navServices: 'Expertise',
-      navReferences: 'Focus',
       navInsights: 'Insights',
+      navSocials: 'Socials',
       navContact: 'Contact',
       langDesktop: 'EN / DE',
       mobileMenu: 'Menu',
@@ -199,18 +193,14 @@ export default function WernerFrancisReinekeOnePager() {
       ctaTitle: 'Contact Werner Francis Reineke and Reineke Technik',
       ctaText:
         'If you are looking for an exchange on cybersecurity, IT security strategy, NIS-2, ISO 27001, automation, or collaboration with Reineke Technik, this is the right starting point.',
+      socialsEyebrow: 'Social Media',
+      socialsTitle: 'Direct profiles and channels',
       contactBoxTitle: 'Contact',
       contactAddressLine1: 'Reineke Technik GmbH',
       contactAddressLine2: 'Geseker Straße 26',
       contactAddressLine3: '33154 Salzkotten',
       contactEmail: 'info@reineke-technik.de',
       contactPhone: '+49 (0) 5258 987-282',
-      websiteLabel: 'Reineke Technik website',
-      websiteUrl: 'https://www.reineke-technik.de/',
-      teamLabel: 'Reineke Technik company profile',
-      teamUrl: 'https://www.reineke-technik.de/unternehmen/',
-      imprintLabel: 'Reineke Technik imprint',
-      imprintUrl: 'https://www.reineke-technik.de/impressum/',
       personalLinkedinLabel: 'Werner Reineke on LinkedIn',
       personalLinkedinUrl: 'https://www.linkedin.com/in/werner-reineke/',
       instagramLabel: 'Reineke Technik on Instagram',
@@ -394,8 +384,8 @@ export default function WernerFrancisReinekeOnePager() {
           <nav className="hidden items-center gap-6 text-sm text-neutral-600 md:flex">
             <a href="#about" className="transition hover:text-[#b91c1c]">{t.navAbout}</a>
             <a href="#services" className="transition hover:text-[#b91c1c]">{t.navServices}</a>
-            <a href="#portfolio" className="transition hover:text-[#b91c1c]">{t.navReferences}</a>
             <a href="#articles" className="transition hover:text-[#b91c1c]">{t.navInsights}</a>
+            <a href="#socials" className="transition hover:text-[#b91c1c]">{t.navSocials}</a>
             <button
               onClick={toggleLanguage}
               className="rounded-full border border-[#b91c1c]/15 px-3 py-2 text-xs font-semibold text-[#b91c1c] transition hover:bg-[#b91c1c]/5"
@@ -426,12 +416,10 @@ export default function WernerFrancisReinekeOnePager() {
         <section className="px-4 pb-14 pt-10 sm:px-6 sm:pb-20 sm:pt-16 lg:px-8 lg:pt-20">
           <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16">
             <motion.div {...fadeUp}>
-              <div className="mb-5">
-                <div className="text-base font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-lg" style={{ fontFamily: '"Avenir Next Condensed", "Arial Narrow", "Avenir Next", sans-serif' }}>
-                  {t.slogan}
-                </div>
-              </div>
               <h1 className="max-w-3xl text-4xl font-semibold leading-[1.02] tracking-tight sm:text-5xl lg:text-6xl">
+                <span className="mb-4 block text-base font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-lg" style={{ fontFamily: '"Avenir Next Condensed", "Arial Narrow", "Avenir Next", sans-serif' }}>
+                  {t.slogan}
+                </span>
                 {t.heroTitle1}
                 <span className="mt-2 block text-[#b91c1c]">{t.heroTitle2}</span>
                 <span className="mt-2 block text-neutral-950">{t.heroTitle3}</span>
@@ -551,30 +539,6 @@ export default function WernerFrancisReinekeOnePager() {
           </div>
         </section>
 
-        <section id="portfolio" className="px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
-          <div className="mx-auto max-w-6xl">
-            <motion.div {...fadeUp} className="max-w-3xl">
-              <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">{t.referencesTitle}</h2>
-              <p className="mt-4 text-[15px] leading-7 text-neutral-600 sm:text-lg sm:leading-8">
-                {t.referencesText}
-              </p>
-            </motion.div>
-
-            <div className="mt-8 grid grid-cols-2 gap-3 sm:mt-10 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
-              {t.companyLogos.map((item, index) => (
-                <motion.div
-                  key={`${item}-${index}`}
-                  {...fadeUp}
-                  transition={{ duration: 0.35, delay: index * 0.03 }}
-                  className="group flex min-h-[96px] items-center justify-center rounded-[1.25rem] border border-[#b91c1c]/12 bg-white p-4 text-center text-sm text-neutral-600 shadow-sm transition hover:-translate-y-0.5 hover:border-[#b91c1c]/25 hover:text-[#b91c1c] hover:shadow-[0_18px_40px_-30px_rgba(185,28,28,0.45)] sm:min-h-[120px] sm:rounded-[1.5rem]"
-                >
-                  {item}
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <section id="articles" className="px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
           <div className="mx-auto max-w-6xl">
             <motion.div {...fadeUp} className="max-w-3xl">
@@ -607,6 +571,68 @@ export default function WernerFrancisReinekeOnePager() {
           </div>
         </section>
 
+        <section id="socials" className="px-4 py-10 sm:px-6 sm:py-16 lg:px-8">
+          <div className="mx-auto max-w-6xl">
+            <motion.div
+              {...fadeUp}
+              className="border-y border-neutral-300/80 py-8 sm:py-10"
+            >
+              <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#b91c1c] sm:text-xs">{t.socialsEyebrow}</div>
+              <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">{t.socialsTitle}</h2>
+              <div className="mt-8 flex flex-wrap items-center gap-6 sm:gap-8">
+                <a
+                  href={t.personalLinkedinUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group inline-flex items-center gap-3"
+                  aria-label={t.personalLinkedinLabel}
+                >
+                  <span className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-[#c81e1e] text-white shadow-[0_18px_40px_-28px_rgba(185,28,28,0.55)] sm:h-20 sm:w-20">
+                    <Linkedin className="h-10 w-10 sm:h-11 sm:w-11" />
+                  </span>
+                  <ExternalLink className="h-7 w-7 text-neutral-900 transition group-hover:text-[#b91c1c]" />
+                </a>
+                <a
+                  href={t.instagramUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group inline-flex items-center gap-3"
+                  aria-label={t.instagramLabel}
+                >
+                  <span className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-[#c81e1e] text-white shadow-[0_18px_40px_-28px_rgba(185,28,28,0.55)] sm:h-20 sm:w-20">
+                    <Instagram className="h-10 w-10 sm:h-11 sm:w-11" />
+                  </span>
+                  <ExternalLink className="h-7 w-7 text-neutral-900 transition group-hover:text-[#b91c1c]" />
+                </a>
+                <a
+                  href={t.companyLinkedinUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group inline-flex items-center gap-3"
+                  aria-label={t.companyLinkedinLabel}
+                >
+                  <span className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-[#c81e1e] text-white shadow-[0_18px_40px_-28px_rgba(185,28,28,0.55)] sm:h-20 sm:w-20">
+                    <Linkedin className="h-10 w-10 sm:h-11 sm:w-11" />
+                  </span>
+                  <ExternalLink className="h-7 w-7 text-neutral-900 transition group-hover:text-[#b91c1c]" />
+                </a>
+                <a
+                  href={t.xUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group inline-flex items-center gap-3"
+                  aria-label={t.xLabel}
+                >
+                  <span className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full text-[#c81e1e] sm:h-20 sm:w-20">
+                    <Twitter className="h-14 w-14 stroke-[1.75] sm:h-16 sm:w-16" />
+                  </span>
+                  <ExternalLink className="h-7 w-7 text-neutral-900 transition group-hover:text-[#b91c1c]" />
+                </a>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
         <section id="contact" className="px-4 pb-20 pt-4 sm:px-6 sm:pb-24 lg:px-8">
           <motion.div
             {...fadeUp}
@@ -619,71 +645,6 @@ export default function WernerFrancisReinekeOnePager() {
                 <p className="mt-4 max-w-2xl text-[15px] leading-7 text-white/80 sm:text-lg sm:leading-8">
                   {t.ctaText}
                 </p>
-                <div className="mt-6 flex flex-wrap gap-3">
-                  <a
-                    href={t.personalLinkedinUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-                  >
-                    <Linkedin className="h-4 w-4" />
-                    {t.personalLinkedinLabel}
-                  </a>
-                  <a
-                    href={t.websiteUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-                  >
-                    <Globe className="h-4 w-4" />
-                    {t.websiteLabel}
-                  </a>
-                  <a
-                    href={t.teamUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-                  >
-                    <Building2 className="h-4 w-4" />
-                    {t.teamLabel}
-                  </a>
-                  <a
-                    href={t.imprintUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-                  >
-                    <Landmark className="h-4 w-4" />
-                    {t.imprintLabel}
-                  </a>
-                  <a
-                    href={t.instagramUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-                  >
-                    <Instagram className="h-4 w-4" />
-                    {t.instagramLabel}
-                  </a>
-                  <a
-                    href={t.companyLinkedinUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-                  >
-                    <Linkedin className="h-4 w-4" />
-                    {t.companyLinkedinLabel}
-                  </a>
-                  <a
-                    href={t.xUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
-                  >
-                    <Twitter className="h-4 w-4" />
-                    {t.xLabel}
-                  </a>
-                </div>
                 <p className="mt-5 max-w-2xl text-sm leading-7 text-white/75">
                   {t.footerHint}
                 </p>
