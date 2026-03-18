@@ -430,14 +430,13 @@ export default function WernerFrancisReinekeOnePager() {
 
       <main id="top" className="relative z-10">
         <section className="px-4 pb-14 pt-10 sm:px-6 sm:pb-20 sm:pt-16 lg:px-8 lg:pt-20">
-          <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16">
+          <div className="mx-auto grid max-w-6xl items-start gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
             <motion.div {...fadeUp}>
-              <h1 className="max-w-4xl text-5xl font-semibold leading-[0.98] tracking-tight sm:text-6xl lg:text-7xl">
-                <span className="mb-4 block text-3xl font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-4xl lg:text-5xl" style={{ fontFamily: '"Avenir Next Condensed", "Arial Narrow", "Avenir Next", sans-serif' }}>
+              <div className="mb-6">
+                <div className="block text-4xl font-semibold uppercase leading-[0.9] tracking-[0.28em] text-[#b91c1c] sm:text-5xl lg:text-6xl" style={{ fontFamily: '"Avenir Next Condensed", "Arial Narrow", "Avenir Next", sans-serif' }}>
                   {t.slogan}
-                </span>
-                <span className="block text-neutral-950">{t.heroTitle1}</span>
-              </h1>
+                </div>
+              </div>
               <p className="mt-4 max-w-2xl text-lg font-medium leading-8 text-[#b91c1c] sm:text-xl">
                 {t.heroTitle2}
               </p>
@@ -471,6 +470,9 @@ export default function WernerFrancisReinekeOnePager() {
             </motion.div>
 
             <motion.div {...fadeUp} className="mx-auto w-full max-w-md lg:max-w-none">
+              <h1 className="mb-6 text-right text-5xl font-semibold leading-[0.95] tracking-tight text-neutral-950 sm:text-6xl lg:text-7xl">
+                {t.heroTitle1}
+              </h1>
               <div className="overflow-hidden rounded-[2rem] border border-[#b91c1c]/12 bg-white shadow-[0_20px_80px_-30px_rgba(185,28,28,0.35)]">
                 <div className="grid gap-0 lg:grid-cols-[1fr_0.92fr]">
                   <div className="aspect-[4/5] min-h-[420px] bg-[linear-gradient(180deg,#fff6f4_0%,#ffffff_38%,#f3f4f6_100%)]">
