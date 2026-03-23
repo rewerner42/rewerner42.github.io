@@ -142,16 +142,6 @@ export default function WernerFrancisReinekeOnePager() {
           text: 'Verantwortung für Unternehmensführung, Cybersecurity und die strategische Weiterentwicklung technischer Leistungen.',
         },
         {
-          period: 'seit 2022',
-          title: 'Chief Executive Officer, Reineke Brot',
-          text: 'Unternehmerische Verantwortung im mittelständischen Umfeld mit starkem Bezug zu Technik, Prozessen und Umsetzung.',
-        },
-        {
-          period: '2021 bis heute',
-          title: 'Head of Technology (Leiter Technik), Reineke Brot',
-          text: 'Führung technischer Teams, Prozessoptimierung und Weiterentwicklung des Wartungs- und Technikbereichs.',
-        },
-        {
           period: '2021',
           title: 'Software Developer, NetVis, Chicago',
           text: 'Softwareentwicklung im internationalen Umfeld mit engem Bezug zu IT- und Sicherheitsfragen.',
@@ -171,17 +161,17 @@ export default function WernerFrancisReinekeOnePager() {
         {
           period: '2021',
           title: 'DePaul University Jarvis College of Computing and Digital Media',
-          text: 'Master of Science (M.Sc.) in Cybersecurity mit Schwerpunkt auf Informationssicherheit, Kryptographie und angewandter Sicherheitsanalyse.',
+          text: 'Master of Science (M.Sc.) in Cybersecurity mit Schwerpunkt auf Informationssicherheit, Kryptographie und angewandter Sicherheitsanalyse. Die Abschlussarbeit untersuchte die sicherheitskritische Adaption des Signal-Protokolls in WhatsApp mit formaler Modellierung und Verifikation in Tamarin.',
         },
         {
           period: '2017 bis 2020',
           title: 'DePaul University',
-          text: 'Studium mit Cybersecurity-Bezug in Chicago und Vertiefung technischer sowie sicherheitsrelevanter Inhalte.',
+          text: 'Cybersecurity-Studium in Chicago mit Schwerpunkt auf Informationssicherheit, Kryptographie und angewandter Sicherheitsanalyse.',
         },
         {
           period: '2012 bis 2016',
           title: 'ETH Zürich',
-          text: 'Studium Mechanical Engineering mit analytischer, technischer und naturwissenschaftlicher Ausbildung.',
+          text: 'Maschinenbaustudium mit Fokus auf Regelungstechnik, technische Systeme und die Schnittstelle zwischen Ingenieurwesen und IT.',
         },
         {
           period: '2011',
@@ -349,16 +339,6 @@ export default function WernerFrancisReinekeOnePager() {
           text: 'Responsible for business leadership, cybersecurity, and the strategic development of technical services.',
         },
         {
-          period: 'since 2022',
-          title: 'Chief Executive Officer, Reineke Brot',
-          text: 'Entrepreneurial responsibility in a mid-sized business environment with strong links to technology, processes, and execution.',
-        },
-        {
-          period: '2021 to present',
-          title: 'Head of Technology, Reineke Brot',
-          text: 'Leadership of technical teams, process optimization, and development of the maintenance and technology function.',
-        },
-        {
           period: '2021',
           title: 'Software Developer, NetVis, Chicago',
           text: 'Software development in an international environment with close ties to IT and security topics.',
@@ -378,17 +358,17 @@ export default function WernerFrancisReinekeOnePager() {
         {
           period: '2021',
           title: 'DePaul University Jarvis College of Computing and Digital Media',
-          text: 'Master of Science (M.Sc.) in Cybersecurity with focus areas in information security, cryptography, and applied security analysis.',
+          text: 'Master of Science (M.Sc.) in Cybersecurity with focus areas in information security, cryptography, and applied security analysis. The thesis examined the security-relevant adaptation of the Signal protocol in WhatsApp using formal modelling and verification in Tamarin.',
         },
         {
           period: '2017 to 2020',
           title: 'DePaul University',
-          text: 'Study period in Chicago with a strong cybersecurity orientation and technical specialization.',
+          text: 'Cybersecurity studies in Chicago with a focus on information security, cryptography, and applied security analysis.',
         },
         {
           period: '2012 to 2016',
           title: 'ETH Zurich',
-          text: 'Mechanical Engineering studies with a strong analytical, technical, and scientific foundation.',
+          text: 'Mechanical engineering studies with a focus on control engineering, technical systems, and the interface between engineering and IT.',
         },
         {
           period: '2011',
@@ -735,6 +715,38 @@ export default function WernerFrancisReinekeOnePager() {
           </div>
         </section>
 
+        <section id="articles" className="px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
+          <div className="mx-auto max-w-6xl">
+            <motion.div {...fadeUp} className="max-w-3xl">
+              <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#b91c1c] sm:text-xs">{t.insightsEyebrow}</div>
+              <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">{t.insightsTitle}</h2>
+              <p className="mt-4 text-[15px] leading-7 text-neutral-600 sm:text-lg sm:leading-8">
+                {t.insightsText}
+              </p>
+            </motion.div>
+
+            <div className="mt-8 grid gap-4 sm:mt-10 md:grid-cols-3 sm:gap-6">
+              {t.articles.map((article, index) => (
+                <motion.a
+                  key={article.title}
+                  href={article.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  {...fadeUp}
+                  transition={{ duration: 0.45, delay: index * 0.05 }}
+                  className="block rounded-[1.5rem] border border-[#b91c1c]/12 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-[#b91c1c]/25 hover:shadow-[0_18px_40px_-30px_rgba(185,28,28,0.35)] sm:rounded-[1.75rem] sm:p-6"
+                >
+                  <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#b91c1c] sm:text-xs">{article.category}</div>
+                  <h3 className="mt-4 text-lg font-semibold leading-snug sm:text-xl">{article.title}</h3>
+                  <div className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-[#b91c1c]">
+                    {t.readMore} <ChevronRight className="h-4 w-4" />
+                  </div>
+                </motion.a>
+              ))}
+            </div>
+          </div>
+        </section>
+
         <section id="cv" className="px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
           <div className="mx-auto max-w-6xl">
             <motion.div {...fadeUp} className="max-w-4xl">
@@ -777,38 +789,6 @@ export default function WernerFrancisReinekeOnePager() {
                   ))}
                 </div>
               </motion.div>
-            </div>
-          </div>
-        </section>
-
-        <section id="articles" className="px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
-          <div className="mx-auto max-w-6xl">
-            <motion.div {...fadeUp} className="max-w-3xl">
-              <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#b91c1c] sm:text-xs">{t.insightsEyebrow}</div>
-              <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">{t.insightsTitle}</h2>
-              <p className="mt-4 text-[15px] leading-7 text-neutral-600 sm:text-lg sm:leading-8">
-                {t.insightsText}
-              </p>
-            </motion.div>
-
-            <div className="mt-8 grid gap-4 sm:mt-10 md:grid-cols-3 sm:gap-6">
-              {t.articles.map((article, index) => (
-                <motion.a
-                  key={article.title}
-                  href={article.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  {...fadeUp}
-                  transition={{ duration: 0.45, delay: index * 0.05 }}
-                  className="block rounded-[1.5rem] border border-[#b91c1c]/12 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-[#b91c1c]/25 hover:shadow-[0_18px_40px_-30px_rgba(185,28,28,0.35)] sm:rounded-[1.75rem] sm:p-6"
-                >
-                  <div className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#b91c1c] sm:text-xs">{article.category}</div>
-                  <h3 className="mt-4 text-lg font-semibold leading-snug sm:text-xl">{article.title}</h3>
-                  <div className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-[#b91c1c]">
-                    {t.readMore} <ChevronRight className="h-4 w-4" />
-                  </div>
-                </motion.a>
-              ))}
             </div>
           </div>
         </section>
