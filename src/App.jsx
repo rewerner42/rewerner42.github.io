@@ -29,6 +29,7 @@ export default function WernerFrancisReinekeOnePager() {
       siteDescription:
         'Offizielle Website von Werner Reineke und Werner Francis Reineke. Cybersecurity, IT-Sicherheitsstrategie, KI-Automatisierung und Unternehmenspraxis aus dem Umfeld der Reineke Technik GmbH.',
       navAbout: 'Profil',
+      navCv: 'Lebenslauf',
       navServices: 'Kompetenzen',
       navInsights: 'Impulse',
       navContact: 'Kontakt',
@@ -54,6 +55,12 @@ export default function WernerFrancisReinekeOnePager() {
       aboutTitle: 'Werner Reineke als Ansprechpartner für IT-Sicherheit, Resilienz und digitale Weiterentwicklung',
       aboutText:
         'Die persönliche Website von Werner Francis Reineke positioniert ihn als unternehmerisch denkenden Ansprechpartner für Unternehmen, die ihre IT-Sicherheit professionalisieren, Risiken beherrschbar machen und moderne Technologien sinnvoll in bestehende Abläufe integrieren möchten. Im Fokus stehen belastbare Sicherheitsstrukturen, technische Klarheit und Lösungen, die nicht nur konzipiert, sondern auch umgesetzt werden.',
+      cvEyebrow: 'Lebenslauf',
+      cvTitle: 'Lebenslauf von Werner Reineke und Werner Francis Reineke',
+      cvText:
+        'Der Lebenslaufbereich stärkt die Suchrelevanz für Werner Reineke und Werner Francis Reineke und zeigt den fachlichen Weg von Führung, Cybersecurity, Softwareentwicklung und Ausbildung klar und nachvollziehbar.',
+      cvCareerTitle: 'Beruflicher Werdegang',
+      cvEducationTitle: 'Ausbildung',
       servicesEyebrow: 'Kompetenzen',
       servicesTitle: 'Leistungsfelder mit klarem Nutzen für Unternehmen',
       servicesText:
@@ -74,6 +81,8 @@ export default function WernerFrancisReinekeOnePager() {
       socialsTitle: 'Direkte Profile und Kanäle',
       socialPersonalTitle: 'Persönlich',
       socialCompanyTitle: 'Reineke Technik',
+      faqEyebrow: 'FAQ',
+      faqTitle: 'Häufig gesuchte Fragen zu Werner Reineke',
       contactBoxTitle: 'Kontakt',
       contactAddressLine1: 'Reineke Technik GmbH',
       contactAddressLine2: 'Geseker Straße 26',
@@ -126,6 +135,74 @@ export default function WernerFrancisReinekeOnePager() {
         'Reineke Technik',
         'IT-Sicherheitsstrategie',
       ],
+      timeline: [
+        {
+          period: 'seit 2022',
+          title: 'Geschäftsführer, Reineke Technik GmbH',
+          text: 'Verantwortung für Unternehmensführung, Cybersecurity und die strategische Weiterentwicklung technischer Leistungen.',
+        },
+        {
+          period: 'seit 2022',
+          title: 'Chief Executive Officer, Reineke Brot',
+          text: 'Unternehmerische Verantwortung im mittelständischen Umfeld mit starkem Bezug zu Technik, Prozessen und Umsetzung.',
+        },
+        {
+          period: '2021 bis heute',
+          title: 'Head of Technology (Leiter Technik), Reineke Brot',
+          text: 'Führung technischer Teams, Prozessoptimierung und Weiterentwicklung des Wartungs- und Technikbereichs.',
+        },
+        {
+          period: '2021',
+          title: 'Software Developer, NetVis, Chicago',
+          text: 'Softwareentwicklung im internationalen Umfeld mit engem Bezug zu IT- und Sicherheitsfragen.',
+        },
+        {
+          period: '2020',
+          title: 'HPC Software Developer, Eisbach Bio GmbH',
+          text: 'Clustering und Softwareentwicklung für forschungsnahe High-Performance-Computing-Anwendungen.',
+        },
+        {
+          period: '2020',
+          title: 'Computer Science Teaching Assistant, Jones College Prep',
+          text: 'Vermittlung von Informatik- und Cybersecurity-Grundlagen im akademischen Umfeld in Chicago.',
+        },
+      ],
+      education: [
+        {
+          period: '2021',
+          title: 'DePaul University Jarvis College of Computing and Digital Media',
+          text: 'Master of Science (M.Sc.) in Cybersecurity mit Schwerpunkt auf Informationssicherheit, Kryptographie und angewandter Sicherheitsanalyse.',
+        },
+        {
+          period: '2017 bis 2020',
+          title: 'DePaul University',
+          text: 'Studium mit Cybersecurity-Bezug in Chicago und Vertiefung technischer sowie sicherheitsrelevanter Inhalte.',
+        },
+        {
+          period: '2012 bis 2016',
+          title: 'ETH Zürich',
+          text: 'Studium Mechanical Engineering mit analytischer, technischer und naturwissenschaftlicher Ausbildung.',
+        },
+        {
+          period: '2011',
+          title: 'Gymnasium Theodorianum',
+          text: 'Abschluss mit zusätzlicher Auszeichnung durch den "Förderpreis der Wirtschaft" aus dem Jahr 2009.',
+        },
+      ],
+      faq: [
+        {
+          question: 'Wer ist Werner Reineke?',
+          answer: 'Werner Reineke ist die verkürzte Namensform von Werner Francis Reineke. Auf dieser Website finden sich Profil, Werdegang, Kompetenzen, Fachbeiträge und Kontaktmöglichkeiten.',
+        },
+        {
+          question: 'Wer ist Werner Francis Reineke?',
+          answer: 'Werner Francis Reineke ist Geschäftsführer der Reineke Technik GmbH und im Umfeld von Cybersecurity, IT-Sicherheitsstrategie, Automatisierung und unternehmerischer Umsetzung aktiv.',
+        },
+        {
+          question: 'Warum gibt es einen Lebenslauf auf dieser Website?',
+          answer: 'Der Lebenslauf bündelt berufliche Stationen, Ausbildung und Fachschwerpunkte an einem Ort und hilft Interessenten wie Suchmaschinen, Werner Reineke eindeutig zuzuordnen.',
+        },
+      ],
       articles: [
         {
           title: 'NIS-2 Compliance im Unternehmen',
@@ -159,6 +236,7 @@ export default function WernerFrancisReinekeOnePager() {
       siteDescription:
         'Official website of Werner Reineke and Werner Francis Reineke. Cybersecurity, IT security strategy, AI automation, and business-focused technology leadership connected to Reineke Technik GmbH.',
       navAbout: 'Profile',
+      navCv: 'Resume',
       navServices: 'Expertise',
       navInsights: 'Insights',
       navContact: 'Contact',
@@ -184,6 +262,12 @@ export default function WernerFrancisReinekeOnePager() {
       aboutTitle: 'Werner Reineke as a contact for IT security, resilience, and digital progress',
       aboutText:
         'This personal website positions Werner Francis Reineke as a business-minded contact for companies that want to professionalize IT security, reduce risk, and integrate modern technologies into real operations. The emphasis is on reliable security structures, technical clarity, and solutions that move beyond concepts into execution.',
+      cvEyebrow: 'Resume',
+      cvTitle: 'Resume of Werner Reineke and Werner Francis Reineke',
+      cvText:
+        'This resume section strengthens search relevance for Werner Reineke and Werner Francis Reineke while presenting a clear path across leadership, cybersecurity, software development, and education.',
+      cvCareerTitle: 'Career history',
+      cvEducationTitle: 'Education',
       servicesEyebrow: 'Expertise',
       servicesTitle: 'Capability areas with clear business value',
       servicesText:
@@ -204,6 +288,8 @@ export default function WernerFrancisReinekeOnePager() {
       socialsTitle: 'Direct profiles and channels',
       socialPersonalTitle: 'Personal',
       socialCompanyTitle: 'Reineke Technik',
+      faqEyebrow: 'FAQ',
+      faqTitle: 'Frequently searched questions about Werner Reineke',
       contactBoxTitle: 'Contact',
       contactAddressLine1: 'Reineke Technik GmbH',
       contactAddressLine2: 'Geseker Straße 26',
@@ -255,6 +341,74 @@ export default function WernerFrancisReinekeOnePager() {
         'ISO 27001',
         'Reineke Technik',
         'IT Security Strategy',
+      ],
+      timeline: [
+        {
+          period: 'since 2022',
+          title: 'Managing Director, Reineke Technik GmbH',
+          text: 'Responsible for business leadership, cybersecurity, and the strategic development of technical services.',
+        },
+        {
+          period: 'since 2022',
+          title: 'Chief Executive Officer, Reineke Brot',
+          text: 'Entrepreneurial responsibility in a mid-sized business environment with strong links to technology, processes, and execution.',
+        },
+        {
+          period: '2021 to present',
+          title: 'Head of Technology, Reineke Brot',
+          text: 'Leadership of technical teams, process optimization, and development of the maintenance and technology function.',
+        },
+        {
+          period: '2021',
+          title: 'Software Developer, NetVis, Chicago',
+          text: 'Software development in an international environment with close ties to IT and security topics.',
+        },
+        {
+          period: '2020',
+          title: 'HPC Software Developer, Eisbach Bio GmbH',
+          text: 'Clustering and software development for research-oriented high-performance computing applications.',
+        },
+        {
+          period: '2020',
+          title: 'Computer Science Teaching Assistant, Jones College Prep',
+          text: 'Teaching computer science and cybersecurity fundamentals in an academic environment in Chicago.',
+        },
+      ],
+      education: [
+        {
+          period: '2021',
+          title: 'DePaul University Jarvis College of Computing and Digital Media',
+          text: 'Master of Science (M.Sc.) in Cybersecurity with focus areas in information security, cryptography, and applied security analysis.',
+        },
+        {
+          period: '2017 to 2020',
+          title: 'DePaul University',
+          text: 'Study period in Chicago with a strong cybersecurity orientation and technical specialization.',
+        },
+        {
+          period: '2012 to 2016',
+          title: 'ETH Zurich',
+          text: 'Mechanical Engineering studies with a strong analytical, technical, and scientific foundation.',
+        },
+        {
+          period: '2011',
+          title: 'Gymnasium Theodorianum',
+          text: 'School graduation with additional recognition through the 2009 "Foerderpreis der Wirtschaft" award.',
+        },
+      ],
+      faq: [
+        {
+          question: 'Who is Werner Reineke?',
+          answer: 'Werner Reineke is the short form of the full name Werner Francis Reineke. This website bundles profile, career history, competencies, publications, and contact details.',
+        },
+        {
+          question: 'Who is Werner Francis Reineke?',
+          answer: 'Werner Francis Reineke is Managing Director of Reineke Technik GmbH and works in cybersecurity, IT security strategy, automation, and business-focused execution.',
+        },
+        {
+          question: 'Why is there a resume section on this website?',
+          answer: 'The resume brings together career stations, education, and key focus areas in one place and helps both visitors and search engines identify Werner Reineke clearly.',
+        },
       ],
       articles: [
         {
@@ -360,10 +514,36 @@ export default function WernerFrancisReinekeOnePager() {
         name: 'Reineke Technik GmbH',
         url: 'https://www.reineke-technik.de/',
       },
+      alumniOf: [
+        {
+          '@type': 'CollegeOrUniversity',
+          name: 'DePaul University Jarvis College of Computing and Digital Media',
+        },
+        {
+          '@type': 'CollegeOrUniversity',
+          name: 'ETH Zurich',
+        },
+      ],
+      hasOccupation: [
+        {
+          '@type': 'Occupation',
+          name: 'Managing Director',
+          occupationLocation: {
+            '@type': 'City',
+            name: 'Salzkotten',
+          },
+        },
+        {
+          '@type': 'Occupation',
+          name: 'Cybersecurity Advisor',
+        },
+      ],
+      award: ['Foerderpreis der Wirtschaft 2009'],
       jobTitle: language === 'de' ? 'Ansprechpartner fur Cybersecurity und Automatisierung' : 'Cybersecurity and automation advisor',
       sameAs: [
         'https://www.reineke-technik.de/',
         'https://www.reineke-technik.de/unternehmen/',
+        'https://www.linkedin.com/in/werner-reineke/',
       ],
       knowsAbout: [
         'Cybersecurity',
@@ -400,6 +580,7 @@ export default function WernerFrancisReinekeOnePager() {
 
           <nav className="hidden items-center gap-6 text-sm text-neutral-600 md:flex">
             <a href="#about" className="transition hover:text-[#b91c1c]">{t.navAbout}</a>
+            <a href="#cv" className="transition hover:text-[#b91c1c]">{t.navCv}</a>
             <a href="#services" className="transition hover:text-[#b91c1c]">{t.navServices}</a>
             <a href="#articles" className="transition hover:text-[#b91c1c]">{t.navInsights}</a>
             <button
@@ -554,6 +735,52 @@ export default function WernerFrancisReinekeOnePager() {
           </div>
         </section>
 
+        <section id="cv" className="px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
+          <div className="mx-auto max-w-6xl">
+            <motion.div {...fadeUp} className="max-w-4xl">
+              <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#b91c1c] sm:text-xs">{t.cvEyebrow}</div>
+              <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">{t.cvTitle}</h2>
+              <p className="mt-4 text-[15px] leading-7 text-neutral-600 sm:text-lg sm:leading-8">
+                {t.cvText}
+              </p>
+            </motion.div>
+
+            <div className="mt-8 grid gap-6 lg:grid-cols-2">
+              <motion.div
+                {...fadeUp}
+                className="rounded-[1.75rem] border border-[#b91c1c]/12 bg-white p-6 shadow-sm sm:p-8"
+              >
+                <h3 className="text-xl font-semibold">{t.cvCareerTitle}</h3>
+                <div className="mt-6 space-y-6">
+                  {t.timeline.map((item, index) => (
+                    <div key={`${item.title}-${index}`} className="border-l-2 border-[#b91c1c]/15 pl-4">
+                      <div className="text-xs font-semibold uppercase tracking-[0.22em] text-[#b91c1c]">{item.period}</div>
+                      <div className="mt-2 text-lg font-semibold text-neutral-950">{item.title}</div>
+                      <p className="mt-2 text-sm leading-7 text-neutral-600 sm:text-base">{item.text}</p>
+                    </div>
+                  ))}
+                </div>
+              </motion.div>
+
+              <motion.div
+                {...fadeUp}
+                className="rounded-[1.75rem] border border-[#b91c1c]/12 bg-white p-6 shadow-sm sm:p-8"
+              >
+                <h3 className="text-xl font-semibold">{t.cvEducationTitle}</h3>
+                <div className="mt-6 space-y-6">
+                  {t.education.map((item, index) => (
+                    <div key={`${item.title}-${index}`} className="border-l-2 border-[#b91c1c]/15 pl-4">
+                      <div className="text-xs font-semibold uppercase tracking-[0.22em] text-[#b91c1c]">{item.period}</div>
+                      <div className="mt-2 text-lg font-semibold text-neutral-950">{item.title}</div>
+                      <p className="mt-2 text-sm leading-7 text-neutral-600 sm:text-base">{item.text}</p>
+                    </div>
+                  ))}
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+
         <section id="articles" className="px-4 py-14 sm:px-6 sm:py-20 lg:px-8">
           <div className="mx-auto max-w-6xl">
             <motion.div {...fadeUp} className="max-w-3xl">
@@ -583,6 +810,23 @@ export default function WernerFrancisReinekeOnePager() {
                 </motion.a>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section className="px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+          <div className="mx-auto max-w-6xl">
+            <motion.div {...fadeUp} className="rounded-[1.75rem] border border-[#b91c1c]/10 bg-white p-6 shadow-sm sm:p-8">
+              <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#b91c1c] sm:text-xs">{t.faqEyebrow}</div>
+              <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">{t.faqTitle}</h2>
+              <div className="mt-6 grid gap-4 md:grid-cols-3">
+                {t.faq.map((item) => (
+                  <div key={item.question} className="rounded-[1.25rem] border border-[#b91c1c]/10 bg-[#fffaf8] p-5">
+                    <h3 className="text-lg font-semibold">{item.question}</h3>
+                    <p className="mt-3 text-sm leading-7 text-neutral-600 sm:text-base">{item.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
           </div>
         </section>
 
