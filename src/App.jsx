@@ -18,8 +18,6 @@ import {
   Shield,
   Twitter,
 } from 'lucide-react';
-import headerLogo from '../wfr_logo/logo-wfr-header.png';
-import masterLogo from '../wfr_logo/logo-wfr-master.png';
 import portrait from '../werner-francis-reineke.jpg';
 
 const canonicalUrl = 'https://wernerfrancisreineke.com/';
@@ -43,7 +41,6 @@ export default function WernerFrancisReinekeOnePager() {
       slogan: 'REINEKE REGELT',
       heroText:
         'Werner Reineke begleitet Unternehmen an der Schnittstelle von Cybersecurity, Automatisierung und operativer Umsetzung. Auf dieser Website finden Interessenten einen kompakten Überblick über das Profil von Werner Francis Reineke, seine fachlichen Schwerpunkte und die Verbindung zur Reineke Technik GmbH.',
-      heroLogoAlt: 'Logo von Werner Francis Reineke',
       heroPrimary: 'Kontakt aufnehmen',
       heroSecondary: 'Kompetenzen ansehen',
       stat1Title: 'Cybersec.',
@@ -236,7 +233,6 @@ export default function WernerFrancisReinekeOnePager() {
       slogan: 'REINEKE REGELT',
       heroText:
         'Werner Reineke supports companies at the intersection of cybersecurity, automation, and practical execution. This website gives visitors a focused overview of Werner Francis Reineke, his core competencies, and the connection to Reineke Technik GmbH.',
-      heroLogoAlt: 'Logo of Werner Francis Reineke',
       heroPrimary: 'Get in touch',
       heroSecondary: 'View expertise',
       stat1Title: 'Cybersec.',
@@ -588,18 +584,6 @@ export default function WernerFrancisReinekeOnePager() {
         <section className="px-4 pb-14 pt-10 sm:px-6 sm:pb-20 sm:pt-16 lg:px-8 lg:pt-20">
           <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16">
             <motion.div {...fadeUp}>
-              <div className="mb-6">
-                <div className="inline-flex items-center gap-4 rounded-[1.5rem] border border-[#b91c1c]/10 bg-white/90 px-4 py-3 shadow-[0_18px_40px_-30px_rgba(185,28,28,0.35)] backdrop-blur">
-                  <img
-                    src={headerLogo}
-                    alt={t.heroLogoAlt}
-                    className="h-12 w-auto object-contain sm:h-14"
-                  />
-                  <div className="text-[11px] font-semibold uppercase tracking-[0.26em] text-[#b91c1c] sm:text-xs">
-                    Werner Francis Reineke
-                  </div>
-                </div>
-              </div>
               <h1 className="max-w-4xl text-5xl font-semibold leading-[0.98] tracking-tight sm:text-6xl lg:text-7xl">
                 <span className="mb-4 block text-3xl font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-4xl lg:text-5xl" style={{ fontFamily: '"Avenir Next Condensed", "Arial Narrow", "Avenir Next", sans-serif' }}>
                   {t.slogan}
@@ -925,13 +909,6 @@ export default function WernerFrancisReinekeOnePager() {
                 </div>
               </div>
 
-              <div className="mt-10 flex items-center justify-end">
-                <img
-                  src={masterLogo}
-                  alt={t.heroLogoAlt}
-                  className="h-16 w-auto object-contain opacity-95 drop-shadow-[0_16px_32px_rgba(185,28,28,0.18)] sm:h-20"
-                />
-              </div>
             </motion.div>
           </div>
         </section>
