@@ -40,8 +40,9 @@ export default function WernerFrancisReinekeOnePager() {
       heroTitle3: '',
       slogan: 'REINEKE REGELT',
       heroText:
-        'Werner Reineke begleitet Unternehmen an der Schnittstelle von Cybersecurity, Automatisierung und operativer Umsetzung. Auf dieser Website finden Interessenten einen kompakten Überblick über das Profil von Werner Francis Reineke, seine fachlichen Schwerpunkte und die Verbindung zur Reineke Technik GmbH.',
+        'Werner Francis Reineke begleitet Unternehmen an der Schnittstelle von Cybersecurity, Automatisierung und operativer Umsetzung. Die Website bündelt Profil, Kompetenzen, aktuelle Impulse und ausgewählte Stationen seines beruflichen Werdegangs.',
       heroPrimary: 'Kontakt aufnehmen',
+      heroBooking: 'Termin buchen',
       heroSecondary: 'Kompetenzen ansehen',
       stat1Title: 'Cybersec.',
       stat1Text: 'strategisch und operativ',
@@ -54,11 +55,11 @@ export default function WernerFrancisReinekeOnePager() {
       aboutEyebrow: 'Profil',
       aboutTitle: 'Werner Reineke als Ansprechpartner für IT-Sicherheit, Resilienz und digitale Weiterentwicklung',
       aboutText:
-        'Die persönliche Website von Werner Francis Reineke positioniert ihn als unternehmerisch denkenden Ansprechpartner für Unternehmen, die ihre IT-Sicherheit professionalisieren, Risiken beherrschbar machen und moderne Technologien sinnvoll in bestehende Abläufe integrieren möchten. Im Fokus stehen belastbare Sicherheitsstrukturen, technische Klarheit und Lösungen, die nicht nur konzipiert, sondern auch umgesetzt werden.',
+        'Werner Francis Reineke verbindet unternehmerisches Denken mit technischer Tiefe in Cybersecurity, IT-Sicherheitsstrategie und digitaler Weiterentwicklung. Im Mittelpunkt stehen belastbare Sicherheitsstrukturen, klare Prioritäten und Lösungen, die in der Praxis funktionieren.',
       cvEyebrow: 'Lebenslauf',
       cvTitle: 'Lebenslauf von Werner Reineke und Werner Francis Reineke',
       cvText:
-        'Der Lebenslaufbereich stärkt die Suchrelevanz für Werner Reineke und Werner Francis Reineke und zeigt den fachlichen Weg von Führung, Cybersecurity, Softwareentwicklung und Ausbildung klar und nachvollziehbar.',
+        'Der Lebenslauf von Werner Francis Reineke zeigt seinen fachlichen Weg von Maschinenbau und Softwareentwicklung über Cybersecurity bis zur unternehmerischen Verantwortung in der Reineke Technik GmbH.',
       cvCareerTitle: 'Beruflicher Werdegang',
       cvEducationTitle: 'Ausbildung',
       servicesEyebrow: 'Kompetenzen',
@@ -67,16 +68,18 @@ export default function WernerFrancisReinekeOnePager() {
         'Die inhaltlichen Schwerpunkte von Werner Francis Reineke reichen von Sicherheitsanalysen und Governance über Schutzmaßnahmen in der Infrastruktur bis hin zu KI-gestützter Automatisierung. Das Ziel ist immer derselbe: Unternehmen sicherer, effizienter und widerstandsfähiger machen.',
       referencesTitle: 'Fokusthemen von Werner Francis Reineke',
       referencesText:
-        'Diese Themen bilden den inhaltlichen Kern der Website und sorgen zugleich für eine klare SEO-Ausrichtung auf Werner Reineke, Werner Francis Reineke, Cybersecurity und Reineke Technik.',
+        'Diese Themen prägen die Arbeit von Werner Francis Reineke in Sicherheitsfragen, Technologieentscheidungen und der praktischen Umsetzung im Unternehmensalltag.',
       insightsEyebrow: 'Impulse',
-      insightsTitle: 'Themen, die Werner Reineke öffentlich prägen',
+      insightsTitle: 'Impulse von Werner Francis Reineke',
       insightsText:
-        'Die Seite stellt die fachlichen Perspektiven in den Vordergrund, mit denen Werner Francis Reineke bei Sicherheitsfragen, Technologieentscheidungen und unternehmerischen Transformationsprojekten wahrgenommen werden soll.',
+        'Hier finden sich ausgewählte Beiträge, Interviews und Fachthemen, die die Arbeit und Perspektive von Werner Francis Reineke kurz einordnen.',
       readMore: 'Mehr dazu',
       ctaEyebrow: 'Direkter Draht',
       ctaTitle: 'Kontakt zu Werner Francis Reineke und Reineke Technik',
       ctaText:
         'Wer ein Gespräch zu Cybersecurity, IT-Sicherheitsstrategie, NIS-2, ISO 27001, Automatisierung oder zur Zusammenarbeit mit Reineke Technik sucht, findet hier den passenden Einstieg.',
+      bookingLabel: 'Termin direkt buchen',
+      bookingUrl: 'https://outlook.office.com/bookwithme/user/99dfe8391d044c208563dd3afbc7439f@reineke-technik.de?anonymous&ismsaljsauthenabled&ep=plink',
       socialsEyebrow: 'Social Media',
       socialsTitle: 'Direkte Profile und Kanäle',
       socialPersonalTitle: 'Persönlich',
@@ -185,7 +188,7 @@ export default function WernerFrancisReinekeOnePager() {
         },
         {
           question: 'Warum gibt es einen Lebenslauf auf dieser Website?',
-          answer: 'Der Lebenslauf bündelt berufliche Stationen, Ausbildung und Fachschwerpunkte an einem Ort und hilft Interessenten wie Suchmaschinen, Werner Reineke eindeutig zuzuordnen.',
+          answer: 'Der Lebenslauf bündelt berufliche Stationen, Ausbildung und Fachschwerpunkte von Werner Francis Reineke in einer kompakten und nachvollziehbaren Übersicht.',
         },
       ],
       articles: [
@@ -232,8 +235,9 @@ export default function WernerFrancisReinekeOnePager() {
       heroTitle3: '',
       slogan: 'REINEKE REGELT',
       heroText:
-        'Werner Reineke supports companies at the intersection of cybersecurity, automation, and practical execution. This website gives visitors a focused overview of Werner Francis Reineke, his core competencies, and the connection to Reineke Technik GmbH.',
+        'Werner Francis Reineke supports companies at the intersection of cybersecurity, automation, and practical execution. The website brings together his profile, competencies, current insights, and selected milestones of his professional background.',
       heroPrimary: 'Get in touch',
+      heroBooking: 'Book a call',
       heroSecondary: 'View expertise',
       stat1Title: 'Cybersec.',
       stat1Text: 'strategic and operational',
@@ -246,11 +250,11 @@ export default function WernerFrancisReinekeOnePager() {
       aboutEyebrow: 'Profile',
       aboutTitle: 'Werner Reineke as a contact for IT security, resilience, and digital progress',
       aboutText:
-        'This personal website positions Werner Francis Reineke as a business-minded contact for companies that want to professionalize IT security, reduce risk, and integrate modern technologies into real operations. The emphasis is on reliable security structures, technical clarity, and solutions that move beyond concepts into execution.',
+        'Werner Francis Reineke combines business-minded leadership with technical depth in cybersecurity, IT security strategy, and digital transformation. The focus is on resilient security structures, clear priorities, and solutions that work in practice.',
       cvEyebrow: 'Resume',
       cvTitle: 'Resume of Werner Reineke and Werner Francis Reineke',
       cvText:
-        'This resume section strengthens search relevance for Werner Reineke and Werner Francis Reineke while presenting a clear path across leadership, cybersecurity, software development, and education.',
+        'The resume of Werner Francis Reineke outlines his path from mechanical engineering and software development to cybersecurity and executive responsibility at Reineke Technik GmbH.',
       cvCareerTitle: 'Career history',
       cvEducationTitle: 'Education',
       servicesEyebrow: 'Expertise',
@@ -259,16 +263,18 @@ export default function WernerFrancisReinekeOnePager() {
         'Werner Francis Reineke focuses on security assessments, governance, protective infrastructure measures, and AI-driven automation. The underlying goal remains the same: helping companies become more secure, efficient, and resilient.',
       referencesTitle: 'Core focus topics of Werner Francis Reineke',
       referencesText:
-        'These topics shape the content architecture of the website while strengthening SEO visibility for Werner Reineke, Werner Francis Reineke, cybersecurity, and Reineke Technik.',
+        'These topics define the work of Werner Francis Reineke in security matters, technology decisions, and practical implementation in day-to-day business.',
       insightsEyebrow: 'Insights',
-      insightsTitle: 'Topics that define Werner Reineke in public-facing communication',
+      insightsTitle: 'Insights from Werner Francis Reineke',
       insightsText:
-        'The site highlights the perspectives through which Werner Francis Reineke should be perceived in security discussions, technology decisions, and business transformation initiatives.',
+        'This section highlights selected articles, interviews, and topics that reflect the work and perspective of Werner Francis Reineke.',
       readMore: 'Learn more',
       ctaEyebrow: 'Direct contact',
       ctaTitle: 'Contact Werner Francis Reineke and Reineke Technik',
       ctaText:
         'If you are looking for an exchange on cybersecurity, IT security strategy, NIS-2, ISO 27001, automation, or collaboration with Reineke Technik, this is the right starting point.',
+      bookingLabel: 'Book directly',
+      bookingUrl: 'https://outlook.office.com/bookwithme/user/99dfe8391d044c208563dd3afbc7439f@reineke-technik.de?anonymous&ismsaljsauthenabled&ep=plink',
       socialsEyebrow: 'Social Media',
       socialsTitle: 'Direct profiles and channels',
       socialPersonalTitle: 'Personal',
@@ -377,7 +383,7 @@ export default function WernerFrancisReinekeOnePager() {
         },
         {
           question: 'Why is there a resume section on this website?',
-          answer: 'The resume brings together career stations, education, and key focus areas in one place and helps both visitors and search engines identify Werner Reineke clearly.',
+          answer: 'The resume brings together career milestones, education, and key focus areas of Werner Francis Reineke in one concise overview.',
         },
       ],
       articles: [
@@ -601,6 +607,14 @@ export default function WernerFrancisReinekeOnePager() {
                 <a href="#contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-[#b91c1c] px-5 py-3 text-sm font-medium text-white shadow-xl shadow-[#b91c1c]/20 transition hover:translate-y-[-1px] hover:opacity-95">
                   {t.heroPrimary} <ArrowRight className="h-4 w-4" />
                 </a>
+                <a
+                  href={t.bookingUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center justify-center rounded-full border border-[#b91c1c]/20 bg-white px-5 py-3 text-sm font-medium text-[#b91c1c] transition hover:bg-[#b91c1c]/5"
+                >
+                  {t.heroBooking}
+                </a>
                 <a href="#services" className="inline-flex items-center justify-center rounded-full border border-[#b91c1c]/20 bg-white px-5 py-3 text-sm font-medium text-[#b91c1c] transition hover:bg-[#b91c1c]/5">
                   {t.heroSecondary}
                 </a>
@@ -813,6 +827,17 @@ export default function WernerFrancisReinekeOnePager() {
                 <p className="mt-4 max-w-2xl text-[15px] leading-7 text-white/80 sm:text-lg sm:leading-8">
                   {t.ctaText}
                 </p>
+                <div className="mt-6">
+                  <a
+                    href={t.bookingUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/15"
+                  >
+                    {t.bookingLabel}
+                    <ArrowRight className="h-4 w-4" />
+                  </a>
+                </div>
               </div>
               <div className="rounded-[1.25rem] border border-white/15 bg-white/10 p-5 text-sm leading-7 text-white/90 backdrop-blur sm:rounded-[1.5rem]">
                 <div className="mb-3 font-semibold">{t.contactBoxTitle}</div>
