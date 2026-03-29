@@ -84,6 +84,15 @@ export default function WernerFrancisReinekeOnePager() {
       socialsTitle: 'Direkte Profile und Kanäle',
       socialPersonalTitle: 'Persönlich',
       socialCompanyTitle: 'Reineke Technik',
+      speakerEyebrow: 'Speaker',
+      speakerTitle: 'Werner Francis Reineke als Cybersecurity Speaker',
+      speakerText:
+        'Werner Francis Reineke spricht über Cybersecurity, IT-Sicherheitsstrategie, NIS-2, Automatisierung und die praktische Umsetzung von Sicherheit im Mittelstand. Seine Vorträge verbinden technische Tiefe mit unternehmerischer Verständlichkeit und eignen sich für Veranstaltungen, Fachforen, Unternehmensformate und Entscheider-Runden.',
+      speakerPoints: [
+        'Vorträge zu Cybersecurity, NIS-2, Resilienz und IT-Sicherheitsstrategie',
+        'Praxisnahe Einordnung für Mittelstand, Geschäftsführung und technische Teams',
+        'Geeignet für Keynotes, Panels, Fachveranstaltungen und interne Unternehmensformate',
+      ],
       faqEyebrow: 'FAQ',
       faqTitle: 'Häufig gesuchte Fragen zu Werner Reineke',
       contactBoxTitle: 'Kontakt',
@@ -179,16 +188,16 @@ export default function WernerFrancisReinekeOnePager() {
       ],
       faq: [
         {
-          question: 'Wer ist Werner Reineke?',
-          answer: 'Werner Reineke ist die verkürzte Namensform von Werner Francis Reineke. Auf dieser Website finden sich Profil, Werdegang, Kompetenzen, Fachbeiträge und Kontaktmöglichkeiten.',
+          question: 'Für welche Themen steht Werner Francis Reineke?',
+          answer: 'Werner Francis Reineke steht für Cybersecurity, IT-Sicherheitsstrategie, NIS-2, Automatisierung und die praktische Umsetzung technischer Lösungen im Unternehmensalltag.',
         },
         {
-          question: 'Wer ist Werner Francis Reineke?',
-          answer: 'Werner Francis Reineke ist Geschäftsführer der Reineke Technik GmbH und im Umfeld von Cybersecurity, IT-Sicherheitsstrategie, Automatisierung und unternehmerischer Umsetzung aktiv.',
+          question: 'Kann man Werner Francis Reineke für Vorträge oder Fachimpulse anfragen?',
+          answer: 'Ja. Werner Francis Reineke kann für Vorträge, Panels, Unternehmensveranstaltungen und Fachformate rund um Cybersecurity, IT-Sicherheit und digitale Transformation angefragt werden.',
         },
         {
-          question: 'Warum gibt es einen Lebenslauf auf dieser Website?',
-          answer: 'Der Lebenslauf bündelt berufliche Stationen, Ausbildung und Fachschwerpunkte von Werner Francis Reineke in einer kompakten und nachvollziehbaren Übersicht.',
+          question: 'Wie kann man mit Werner Francis Reineke in Kontakt treten?',
+          answer: 'Für ein persönliches Gespräch stehen E-Mail, Telefon, LinkedIn und die direkte Terminbuchung über den Buchungslink auf dieser Website zur Verfügung.',
         },
       ],
       articles: [
@@ -279,6 +288,15 @@ export default function WernerFrancisReinekeOnePager() {
       socialsTitle: 'Direct profiles and channels',
       socialPersonalTitle: 'Personal',
       socialCompanyTitle: 'Reineke Technik',
+      speakerEyebrow: 'Speaker',
+      speakerTitle: 'Werner Francis Reineke as a Cybersecurity Speaker',
+      speakerText:
+        'Werner Francis Reineke speaks on cybersecurity, IT security strategy, NIS-2, automation, and the practical implementation of security in mid-sized businesses. His talks combine technical depth with business clarity and fit conferences, expert forums, company events, and leadership formats.',
+      speakerPoints: [
+        'Talks on cybersecurity, NIS-2, resilience, and IT security strategy',
+        'Practical framing for SMEs, executive leadership, and technical teams',
+        'Suitable for keynotes, panels, specialist events, and internal company formats',
+      ],
       faqEyebrow: 'FAQ',
       faqTitle: 'Frequently searched questions about Werner Reineke',
       contactBoxTitle: 'Contact',
@@ -374,16 +392,16 @@ export default function WernerFrancisReinekeOnePager() {
       ],
       faq: [
         {
-          question: 'Who is Werner Reineke?',
-          answer: 'Werner Reineke is the short form of the full name Werner Francis Reineke. This website bundles profile, career history, competencies, publications, and contact details.',
+          question: 'What topics define Werner Francis Reineke?',
+          answer: 'Werner Francis Reineke is closely associated with cybersecurity, IT security strategy, NIS-2, automation, and the practical implementation of technical solutions in business environments.',
         },
         {
-          question: 'Who is Werner Francis Reineke?',
-          answer: 'Werner Francis Reineke is Managing Director of Reineke Technik GmbH and works in cybersecurity, IT security strategy, automation, and business-focused execution.',
+          question: 'Can Werner Francis Reineke be booked for talks or expert sessions?',
+          answer: 'Yes. Werner Francis Reineke can be requested for talks, panels, company events, and specialist formats focused on cybersecurity, IT security, and digital transformation.',
         },
         {
-          question: 'Why is there a resume section on this website?',
-          answer: 'The resume brings together career milestones, education, and key focus areas of Werner Francis Reineke in one concise overview.',
+          question: 'How can people get in touch with Werner Francis Reineke?',
+          answer: 'People can reach out via email, phone, LinkedIn, or by using the direct booking link provided on this website.',
         },
       ],
       articles: [
@@ -800,6 +818,24 @@ export default function WernerFrancisReinekeOnePager() {
 
         <section className="px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           <div className="mx-auto max-w-6xl">
+            <motion.div
+              {...fadeUp}
+              className="mb-8 rounded-[1.75rem] border border-[#b91c1c]/12 bg-[linear-gradient(180deg,#fff7f5_0%,#ffffff_100%)] p-6 shadow-sm sm:mb-10 sm:p-8"
+            >
+              <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#b91c1c] sm:text-xs">{t.speakerEyebrow}</div>
+              <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">{t.speakerTitle}</h2>
+              <p className="mt-4 max-w-3xl text-[15px] leading-7 text-neutral-600 sm:text-lg sm:leading-8">
+                {t.speakerText}
+              </p>
+              <div className="mt-6 grid gap-4 md:grid-cols-3">
+                {t.speakerPoints.map((point) => (
+                  <div key={point} className="rounded-[1.25rem] border border-[#b91c1c]/10 bg-white p-5">
+                    <p className="text-sm font-medium leading-7 text-neutral-700 sm:text-base">{point}</p>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
             <motion.div {...fadeUp} className="rounded-[1.75rem] border border-[#b91c1c]/10 bg-white p-6 shadow-sm sm:p-8">
               <div className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#b91c1c] sm:text-xs">{t.faqEyebrow}</div>
               <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">{t.faqTitle}</h2>
