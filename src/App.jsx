@@ -39,7 +39,6 @@ export default function WernerFrancisReinekeOnePager() {
       heroTitle2: 'Cybersecurity, Strategie und Umsetzung.',
       heroTitle3: '',
       slogan: 'REINEKE REGELT',
-      heroSpeakerBadge: 'Cybersecurity Speaker',
       heroText:
         'Werner Francis Reineke begleitet Unternehmen an der Schnittstelle von Cybersecurity, Automatisierung und operativer Umsetzung. Die Website bündelt Profil, Kompetenzen, aktuelle Impulse und ausgewählte Stationen seines beruflichen Werdegangs.',
       heroPrimary: 'Kontakt aufnehmen',
@@ -58,7 +57,7 @@ export default function WernerFrancisReinekeOnePager() {
       aboutText:
         'Werner Francis Reineke verbindet unternehmerisches Denken mit technischer Tiefe in Cybersecurity, IT-Sicherheitsstrategie und digitaler Weiterentwicklung. Im Mittelpunkt stehen belastbare Sicherheitsstrukturen, klare Prioritäten und Lösungen, die in der Praxis funktionieren.',
       cvEyebrow: 'Lebenslauf',
-      cvTitle: 'Lebenslauf von Werner Reineke und Werner Francis Reineke',
+      cvTitle: 'Lebenslauf von Werner Francis Reineke',
       cvText:
         'Der Lebenslauf von Werner Francis Reineke zeigt seinen fachlichen Weg von Maschinenbau und Softwareentwicklung über Cybersecurity bis zur unternehmerischen Verantwortung in der Reineke Technik GmbH.',
       cvCareerTitle: 'Beruflicher Werdegang',
@@ -244,7 +243,6 @@ export default function WernerFrancisReinekeOnePager() {
       heroTitle2: 'Cybersecurity, strategy and execution.',
       heroTitle3: '',
       slogan: 'REINEKE REGELT',
-      heroSpeakerBadge: 'Cybersecurity Speaker',
       heroText:
         'Werner Francis Reineke supports companies at the intersection of cybersecurity, automation, and practical execution. The website brings together his profile, competencies, current insights, and selected milestones of his professional background.',
       heroPrimary: 'Get in touch',
@@ -263,7 +261,7 @@ export default function WernerFrancisReinekeOnePager() {
       aboutText:
         'Werner Francis Reineke combines business-minded leadership with technical depth in cybersecurity, IT security strategy, and digital transformation. The focus is on resilient security structures, clear priorities, and solutions that work in practice.',
       cvEyebrow: 'Resume',
-      cvTitle: 'Resume of Werner Reineke and Werner Francis Reineke',
+      cvTitle: 'Resume of Werner Francis Reineke',
       cvText:
         'The resume of Werner Francis Reineke outlines his path from mechanical engineering and software development to cybersecurity and executive responsibility at Reineke Technik GmbH.',
       cvCareerTitle: 'Career history',
@@ -610,9 +608,6 @@ export default function WernerFrancisReinekeOnePager() {
         <section className="px-4 pb-14 pt-10 sm:px-6 sm:pb-20 sm:pt-16 lg:px-8 lg:pt-20">
           <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16">
             <motion.div {...fadeUp}>
-              <div className="mb-5 inline-flex items-center rounded-full border border-[#b91c1c]/15 bg-[#b91c1c]/6 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-[#b91c1c] sm:text-xs">
-                {t.heroSpeakerBadge}
-              </div>
               <h1 className="max-w-4xl text-5xl font-semibold leading-[0.98] tracking-tight sm:text-6xl lg:text-7xl">
                 <span className="mb-4 block text-3xl font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-4xl lg:text-5xl" style={{ fontFamily: '"Avenir Next Condensed", "Arial Narrow", "Avenir Next", sans-serif' }}>
                   {t.slogan}
