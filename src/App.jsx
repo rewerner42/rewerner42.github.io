@@ -39,6 +39,7 @@ export default function WernerFrancisReinekeOnePager() {
       heroTitle2: 'Cybersecurity, Strategie und Umsetzung.',
       heroTitle3: '',
       slogan: 'REINEKE REGELT',
+      heroSpeakerBadge: 'Cybersecurity Speaker',
       heroText:
         'Werner Francis Reineke begleitet Unternehmen an der Schnittstelle von Cybersecurity, Automatisierung und operativer Umsetzung. Die Website bündelt Profil, Kompetenzen, aktuelle Impulse und ausgewählte Stationen seines beruflichen Werdegangs.',
       heroPrimary: 'Kontakt aufnehmen',
@@ -243,6 +244,7 @@ export default function WernerFrancisReinekeOnePager() {
       heroTitle2: 'Cybersecurity, strategy and execution.',
       heroTitle3: '',
       slogan: 'REINEKE REGELT',
+      heroSpeakerBadge: 'Cybersecurity Speaker',
       heroText:
         'Werner Francis Reineke supports companies at the intersection of cybersecurity, automation, and practical execution. The website brings together his profile, competencies, current insights, and selected milestones of his professional background.',
       heroPrimary: 'Get in touch',
@@ -608,6 +610,9 @@ export default function WernerFrancisReinekeOnePager() {
         <section className="px-4 pb-14 pt-10 sm:px-6 sm:pb-20 sm:pt-16 lg:px-8 lg:pt-20">
           <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16">
             <motion.div {...fadeUp}>
+              <div className="mb-5 inline-flex items-center rounded-full border border-[#b91c1c]/15 bg-[#b91c1c]/6 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-[#b91c1c] sm:text-xs">
+                {t.heroSpeakerBadge}
+              </div>
               <h1 className="max-w-4xl text-5xl font-semibold leading-[0.98] tracking-tight sm:text-6xl lg:text-7xl">
                 <span className="mb-4 block text-3xl font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-4xl lg:text-5xl" style={{ fontFamily: '"Avenir Next Condensed", "Arial Narrow", "Avenir Next", sans-serif' }}>
                   {t.slogan}
@@ -637,33 +642,18 @@ export default function WernerFrancisReinekeOnePager() {
                   {t.heroSecondary}
                 </a>
               </div>
-
-              <div className="mt-7 grid max-w-xl grid-cols-2 gap-3 sm:mt-8 sm:grid-cols-3">
-                <div className="rounded-2xl border border-[#b91c1c]/12 bg-white p-4 text-center shadow-sm">
-                  <div className="text-2xl font-semibold text-[#b91c1c]">{t.stat1Title}</div>
-                  <div className="mt-1 text-sm text-neutral-500">{t.stat1Text}</div>
-                </div>
-                <div className="rounded-2xl border border-[#b91c1c]/12 bg-white p-4 text-center shadow-sm">
-                  <div className="text-2xl font-semibold text-[#b91c1c]">{t.stat2Title}</div>
-                  <div className="mt-1 text-sm text-neutral-500">{t.stat2Text}</div>
-                </div>
-                <div className="col-span-2 rounded-2xl border border-[#b91c1c]/12 bg-white p-4 text-center shadow-sm sm:col-span-1">
-                  <div className="text-2xl font-semibold text-[#b91c1c]">{t.stat3Title}</div>
-                  <div className="mt-1 text-sm text-neutral-500">{t.stat3Text}</div>
-                </div>
-              </div>
             </motion.div>
             <motion.div {...fadeUp} className="mx-auto w-full max-w-md lg:max-w-none">
               <div className="overflow-hidden rounded-[2rem] border border-[#b91c1c]/12 bg-white shadow-[0_20px_80px_-30px_rgba(185,28,28,0.35)]">
-                <div className="grid gap-0 lg:grid-cols-[1fr_0.92fr]">
+                <div className="grid gap-0 lg:grid-cols-[1.08fr_0.92fr]">
                   <div className="aspect-[4/5] min-h-[420px] bg-[linear-gradient(180deg,#fff6f4_0%,#ffffff_38%,#f3f4f6_100%)]">
                     <img
                       src={portrait}
                       alt={t.portraitAlt}
-                      className="h-full w-full object-cover"
+                      className="h-full w-full object-cover object-[center_18%]"
                     />
                   </div>
-                  <div className="flex flex-col justify-end p-6 sm:p-8">
+                  <div className="flex flex-col justify-center p-6 sm:p-8">
                     <p className="text-2xl font-semibold leading-10 text-neutral-900 sm:text-3xl">
                       {t.portraitCaption}
                     </p>
