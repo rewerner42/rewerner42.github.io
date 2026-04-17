@@ -49,10 +49,9 @@ export default function WernerFrancisReinekeOnePager() {
       heroNameBottom: 'Reineke',
       heroTitle2: 'Cybersecurity, Strategie und Umsetzung.',
       heroTitle3: '',
-      slogan: 'REINEKE REGELT',
       heroMeta: 'Geschäftsführer Reineke Technik GmbH · Cybersecurity Speaker · M.Sc. Cybersecurity',
       heroText:
-        'Werner Francis Reineke ist Geschäftsführer der Reineke Technik GmbH und begleitet Unternehmen an der Schnittstelle von Cybersecurity, Automatisierung und operativer Umsetzung. Die Website bündelt Profil, Kompetenzen, aktuelle Impulse und ausgewählte Stationen seines beruflichen Werdegangs.',
+        'Werner Francis Reineke hilft Unternehmen dabei, IT-Sicherheitsrisiken früh zu erkennen, praktikable Schutzmaßnahmen umzusetzen und technische Prozesse so aufzustellen, dass Sicherheit, Effizienz und Handlungsfähigkeit im Alltag steigen. Das ist besonders relevant für Geschäftsführung, IT-Verantwortliche und Teams, die Cybersecurity, NIS-2, Automatisierung oder digitale Weiterentwicklung mit klaren Prioritäten voranbringen wollen.',
       heroPrimary: 'Kontakt aufnehmen',
       heroBooking: 'Termin buchen',
       heroSecondary: 'Kompetenzen ansehen',
@@ -245,10 +244,9 @@ export default function WernerFrancisReinekeOnePager() {
       heroNameBottom: 'Reineke',
       heroTitle2: 'Cybersecurity, strategy and execution.',
       heroTitle3: '',
-      slogan: 'REINEKE REGELT',
       heroMeta: 'Managing Director Reineke Technik GmbH · Cybersecurity Speaker · M.Sc. Cybersecurity',
       heroText:
-        'Werner Francis Reineke is Managing Director of Reineke Technik GmbH and supports companies at the intersection of cybersecurity, automation, and practical execution. The website brings together his profile, competencies, current insights, and selected milestones of his professional background.',
+        'Werner Francis Reineke helps companies identify IT security risks early, implement practical protective measures, and improve technical processes in ways that strengthen security, efficiency, and day-to-day resilience. This is especially valuable for business leaders, IT decision-makers, and teams working on cybersecurity, NIS-2, automation, or digital transformation with clear priorities.',
       heroPrimary: 'Get in touch',
       heroBooking: 'Book a call',
       heroSecondary: 'View expertise',
@@ -689,9 +687,6 @@ export default function WernerFrancisReinekeOnePager() {
           <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[1.02fr_0.98fr] lg:gap-16">
             <motion.div {...fadeUp}>
               <h1 className="max-w-4xl text-5xl font-semibold leading-[0.98] tracking-tight sm:text-6xl lg:text-7xl">
-                <span className="mb-4 block text-3xl font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-4xl lg:text-5xl" style={{ fontFamily: '"Avenir Next Condensed", "Arial Narrow", "Avenir Next", sans-serif' }}>
-                  {t.slogan}
-                </span>
                 <span className="block text-neutral-950 md:whitespace-nowrap">{t.heroNameTop}</span>
                 <span className="block text-neutral-950">{t.heroNameBottom}</span>
               </h1>
