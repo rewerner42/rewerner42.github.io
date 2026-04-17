@@ -25,9 +25,9 @@ const canonicalUrl = 'https://wernerfrancisreineke.com/';
 export default function WernerFrancisReinekeOnePager() {
   const translations = {
     de: {
-      siteTitle: 'Werner Francis Reineke | Cybersecurity, KI-Automatisierung & Reineke Technik',
+      siteTitle: 'Werner Francis Reineke | Offizielle Website, Cybersecurity & Speaker',
       siteDescription:
-        'Offizielle Website von Werner Reineke und Werner Francis Reineke. Cybersecurity, IT-Sicherheitsstrategie, KI-Automatisierung und Unternehmenspraxis aus dem Umfeld der Reineke Technik GmbH.',
+        'Werner Francis Reineke ist Geschäftsführer der Reineke Technik GmbH und Ansprechpartner für Cybersecurity, IT-Sicherheitsstrategie, NIS-2, Automatisierung und Fachvorträge.',
       navAbout: 'Profil',
       navCv: 'Lebenslauf',
       navServices: 'Kompetenzen',
@@ -35,12 +35,13 @@ export default function WernerFrancisReinekeOnePager() {
       navContact: 'Kontakt',
       langDesktop: 'DE / EN',
       mobileMenu: 'Menü',
-      heroTitle1: 'Werner Reineke',
+      heroTitle1: 'Werner Francis Reineke',
       heroTitle2: 'Cybersecurity, Strategie und Umsetzung.',
       heroTitle3: '',
       slogan: 'REINEKE REGELT',
+      heroMeta: 'Geschäftsführer Reineke Technik GmbH · Cybersecurity Speaker · M.Sc. Cybersecurity',
       heroText:
-        'Werner Francis Reineke begleitet Unternehmen an der Schnittstelle von Cybersecurity, Automatisierung und operativer Umsetzung. Die Website bündelt Profil, Kompetenzen, aktuelle Impulse und ausgewählte Stationen seines beruflichen Werdegangs.',
+        'Werner Francis Reineke ist Geschäftsführer der Reineke Technik GmbH und begleitet Unternehmen an der Schnittstelle von Cybersecurity, Automatisierung und operativer Umsetzung. Die Website bündelt Profil, Kompetenzen, aktuelle Impulse und ausgewählte Stationen seines beruflichen Werdegangs.',
       heroPrimary: 'Kontakt aufnehmen',
       heroBooking: 'Termin buchen',
       heroSecondary: 'Kompetenzen ansehen',
@@ -53,7 +54,7 @@ export default function WernerFrancisReinekeOnePager() {
       portraitAlt: 'Portrait von Werner Francis Reineke',
       portraitCaption: 'Vertrauen ist gut, Multi-Faktor-Authentifizierung ist besser.',
       aboutEyebrow: 'Profil',
-      aboutTitle: 'Werner Reineke als Ansprechpartner für IT-Sicherheit, Resilienz und digitale Weiterentwicklung',
+      aboutTitle: 'Werner Francis Reineke als Ansprechpartner für IT-Sicherheit, Resilienz und digitale Weiterentwicklung',
       aboutText:
         'Werner Francis Reineke verbindet unternehmerisches Denken mit technischer Tiefe in Cybersecurity, IT-Sicherheitsstrategie und digitaler Weiterentwicklung. Im Mittelpunkt stehen belastbare Sicherheitsstrukturen, klare Prioritäten und Lösungen, die in der Praxis funktionieren.',
       cvEyebrow: 'Lebenslauf',
@@ -75,7 +76,7 @@ export default function WernerFrancisReinekeOnePager() {
         'Hier finden sich ausgewählte Beiträge, Interviews und Fachthemen, die die Arbeit und Perspektive von Werner Francis Reineke kurz einordnen.',
       readMore: 'Mehr dazu',
       ctaEyebrow: 'Direkter Draht',
-      ctaTitle: 'Kontakt zu Werner Francis Reineke und Reineke Technik',
+      ctaTitle: 'Kontakt zu Werner Francis Reineke',
       ctaText:
         'Wer ein Gespräch zu Cybersecurity, IT-Sicherheitsstrategie, NIS-2, ISO 27001, Automatisierung oder zur Zusammenarbeit mit Reineke Technik sucht, findet hier den passenden Einstieg.',
       bookingLabel: 'Termin direkt buchen',
@@ -101,7 +102,7 @@ export default function WernerFrancisReinekeOnePager() {
       contactAddressLine3: '33154 Salzkotten',
       contactEmail: 'info@reineke-technik.de',
       contactPhone: '+49 (0) 5258 987-282',
-      personalLinkedinLabel: 'Werner Reineke auf LinkedIn',
+      personalLinkedinLabel: 'Werner Francis Reineke auf LinkedIn',
       personalLinkedinUrl: 'https://www.linkedin.com/in/werner-reineke/',
       instagramLabel: 'Reineke Technik auf Instagram',
       instagramUrl: 'https://www.instagram.com/reineketechnik/',
@@ -136,16 +137,6 @@ export default function WernerFrancisReinekeOnePager() {
           title: 'Netzwerkschutz, E-Mail-Sicherheit, Backup, Endpoint und Automatisierung',
           text: 'Technische MaSnahmen, die Sicherheitsniveau und betriebliche Effizienz gemeinsam verbessern.',
         },
-      ],
-      companyLogos: [
-        'Werner Reineke',
-        'Werner Francis Reineke',
-        'Cybersecurity',
-        'KI-Automatisierung',
-        'NIS-2',
-        'ISO 27001',
-        'Reineke Technik',
-        'IT-Sicherheitsstrategie',
       ],
       timeline: [
         {
@@ -229,9 +220,9 @@ export default function WernerFrancisReinekeOnePager() {
       ],
     },
     en: {
-      siteTitle: 'Werner Francis Reineke | Cybersecurity, AI Automation & Reineke Technik',
+      siteTitle: 'Werner Francis Reineke | Official Website, Cybersecurity & Speaker',
       siteDescription:
-        'Official website of Werner Reineke and Werner Francis Reineke. Cybersecurity, IT security strategy, AI automation, and business-focused technology leadership connected to Reineke Technik GmbH.',
+        'Werner Francis Reineke is Managing Director of Reineke Technik GmbH and a contact for cybersecurity, IT security strategy, NIS-2, automation, and speaking engagements.',
       navAbout: 'Profile',
       navCv: 'Resume',
       navServices: 'Expertise',
@@ -239,12 +230,13 @@ export default function WernerFrancisReinekeOnePager() {
       navContact: 'Contact',
       langDesktop: 'EN / DE',
       mobileMenu: 'Menu',
-      heroTitle1: 'Werner Reineke',
+      heroTitle1: 'Werner Francis Reineke',
       heroTitle2: 'Cybersecurity, strategy and execution.',
       heroTitle3: '',
       slogan: 'REINEKE REGELT',
+      heroMeta: 'Managing Director Reineke Technik GmbH · Cybersecurity Speaker · M.Sc. Cybersecurity',
       heroText:
-        'Werner Francis Reineke supports companies at the intersection of cybersecurity, automation, and practical execution. The website brings together his profile, competencies, current insights, and selected milestones of his professional background.',
+        'Werner Francis Reineke is Managing Director of Reineke Technik GmbH and supports companies at the intersection of cybersecurity, automation, and practical execution. The website brings together his profile, competencies, current insights, and selected milestones of his professional background.',
       heroPrimary: 'Get in touch',
       heroBooking: 'Book a call',
       heroSecondary: 'View expertise',
@@ -257,7 +249,7 @@ export default function WernerFrancisReinekeOnePager() {
       portraitAlt: 'Portrait of Werner Francis Reineke',
       portraitCaption: 'Trust is good, multi-factor authentication is better.',
       aboutEyebrow: 'Profile',
-      aboutTitle: 'Werner Reineke as a contact for IT security, resilience, and digital progress',
+      aboutTitle: 'Werner Francis Reineke as a contact for IT security, resilience, and digital progress',
       aboutText:
         'Werner Francis Reineke combines business-minded leadership with technical depth in cybersecurity, IT security strategy, and digital transformation. The focus is on resilient security structures, clear priorities, and solutions that work in practice.',
       cvEyebrow: 'Resume',
@@ -279,7 +271,7 @@ export default function WernerFrancisReinekeOnePager() {
         'This section highlights selected articles, interviews, and topics that reflect the work and perspective of Werner Francis Reineke.',
       readMore: 'Learn more',
       ctaEyebrow: 'Direct contact',
-      ctaTitle: 'Contact Werner Francis Reineke and Reineke Technik',
+      ctaTitle: 'Contact Werner Francis Reineke',
       ctaText:
         'If you are looking for an exchange on cybersecurity, IT security strategy, NIS-2, ISO 27001, automation, or collaboration with Reineke Technik, this is the right starting point.',
       bookingLabel: 'Book directly',
@@ -305,7 +297,7 @@ export default function WernerFrancisReinekeOnePager() {
       contactAddressLine3: '33154 Salzkotten',
       contactEmail: 'info@reineke-technik.de',
       contactPhone: '+49 (0) 5258 987-282',
-      personalLinkedinLabel: 'Werner Reineke on LinkedIn',
+      personalLinkedinLabel: 'Werner Francis Reineke on LinkedIn',
       personalLinkedinUrl: 'https://www.linkedin.com/in/werner-reineke/',
       instagramLabel: 'Reineke Technik on Instagram',
       instagramUrl: 'https://www.instagram.com/reineketechnik/',
@@ -340,16 +332,6 @@ export default function WernerFrancisReinekeOnePager() {
           title: 'Network protection, email security, backup, endpoint, and automation',
           text: 'Technical measures that improve both security and day-to-day operational performance.',
         },
-      ],
-      companyLogos: [
-        'Werner Reineke',
-        'Werner Francis Reineke',
-        'Cybersecurity',
-        'AI Automation',
-        'NIS-2',
-        'ISO 27001',
-        'Reineke Technik',
-        'IT Security Strategy',
       ],
       timeline: [
         {
@@ -481,33 +463,84 @@ export default function WernerFrancisReinekeOnePager() {
     canonical.setAttribute('href', canonicalUrl);
 
     ensureMeta('description', t.siteDescription);
-    ensureMeta('keywords', 'Werner Reineke, Werner Francis Reineke, Reineke Technik, Cybersecurity, IT-Sicherheit, KI-Automatisierung');
+    ensureMeta(
+      'keywords',
+      'Werner Francis Reineke, Werner Reineke, Werner Francis Reineke Cybersecurity, Werner Francis Reineke Speaker, Reineke Technik, NIS-2, IT-Sicherheitsstrategie, KI-Automatisierung'
+    );
+    ensureMeta('author', 'Werner Francis Reineke');
+    ensureMeta('robots', 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1');
     ensureMeta('og:title', t.siteTitle, 'property');
     ensureMeta('og:description', t.siteDescription, 'property');
     ensureMeta('og:type', 'website', 'property');
     ensureMeta('og:url', canonicalUrl, 'property');
+    ensureMeta('og:site_name', 'Werner Francis Reineke', 'property');
     ensureMeta('og:locale', language === 'de' ? 'de_DE' : 'en_US', 'property');
+    ensureMeta('og:image', `${canonicalUrl}werner-francis-reineke.jpg`, 'property');
+    ensureMeta('og:image:alt', 'Portrait von Werner Francis Reineke', 'property');
+    ensureMeta('twitter:title', t.siteTitle);
+    ensureMeta('twitter:description', t.siteDescription);
+    ensureMeta('twitter:image', `${canonicalUrl}werner-francis-reineke.jpg`);
+    ensureMeta('twitter:image:alt', 'Portrait von Werner Francis Reineke');
 
-    let schema = document.getElementById('person-schema');
-    if (!schema) {
-      schema = document.createElement('script');
-      schema.id = 'person-schema';
-      schema.type = 'application/ld+json';
-      document.head.appendChild(schema);
-    }
+    const ensureSchema = (id) => {
+      let schema = document.getElementById(id);
+      if (!schema) {
+        schema = document.createElement('script');
+        schema.id = id;
+        schema.type = 'application/ld+json';
+        document.head.appendChild(schema);
+      }
+      return schema;
+    };
 
-    schema.textContent = JSON.stringify({
+    const personId = `${canonicalUrl}#person`;
+    const personDescription =
+      language === 'de'
+        ? 'Werner Francis Reineke ist Geschäftsführer der Reineke Technik GmbH und Ansprechpartner für Cybersecurity, IT-Sicherheitsstrategie, NIS-2, Automatisierung und Vorträge.'
+        : 'Werner Francis Reineke is Managing Director of Reineke Technik GmbH and a contact for cybersecurity, IT security strategy, NIS-2, automation, and speaking engagements.';
+
+    ensureSchema('website-schema').textContent = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      '@id': `${canonicalUrl}#website`,
+      url: canonicalUrl,
+      name: 'Werner Francis Reineke',
+      inLanguage: language === 'de' ? 'de-DE' : 'en-US',
+      description: t.siteDescription,
+    });
+
+    ensureSchema('profile-page-schema').textContent = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'ProfilePage',
+      '@id': `${canonicalUrl}#profile`,
+      url: canonicalUrl,
+      name: 'Werner Francis Reineke',
+      description: t.siteDescription,
+      mainEntity: {
+        '@id': personId,
+      },
+      isPartOf: {
+        '@id': `${canonicalUrl}#website`,
+      },
+    });
+
+    ensureSchema('person-schema').textContent = JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Person',
+      '@id': personId,
       name: 'Werner Francis Reineke',
+      givenName: 'Werner Francis',
+      familyName: 'Reineke',
       alternateName: ['Werner Reineke'],
+      description: personDescription,
       url: canonicalUrl,
+      mainEntityOfPage: canonicalUrl,
       image: [`${canonicalUrl}werner-francis-reineke.jpg`, `${canonicalUrl}wfr_logo/og-image.png`],
-      logo: `${canonicalUrl}wfr_logo/logo-wfr-master.png`,
       worksFor: {
         '@type': 'Organization',
         name: 'Reineke Technik GmbH',
         url: 'https://www.reineke-technik.de/',
+        logo: `${canonicalUrl}wfr_logo/logo-wfr-master.png`,
       },
       alumniOf: [
         {
@@ -522,7 +555,7 @@ export default function WernerFrancisReinekeOnePager() {
       hasOccupation: [
         {
           '@type': 'Occupation',
-          name: 'Managing Director',
+          name: language === 'de' ? 'Geschäftsführer' : 'Managing Director',
           occupationLocation: {
             '@type': 'City',
             name: 'Salzkotten',
@@ -530,15 +563,17 @@ export default function WernerFrancisReinekeOnePager() {
         },
         {
           '@type': 'Occupation',
-          name: 'Cybersecurity Advisor',
+          name: language === 'de' ? 'Cybersecurity Speaker' : 'Cybersecurity Speaker',
         },
       ],
-      award: ['Foerderpreis der Wirtschaft 2009'],
-      jobTitle: language === 'de' ? 'Ansprechpartner fur Cybersecurity und Automatisierung' : 'Cybersecurity and automation advisor',
+      jobTitle:
+        language === 'de'
+          ? 'Geschäftsführer der Reineke Technik GmbH'
+          : 'Managing Director of Reineke Technik GmbH',
+      knowsLanguage: ['de', 'en'],
       sameAs: [
-        'https://www.reineke-technik.de/',
-        'https://www.reineke-technik.de/unternehmen/',
         'https://www.linkedin.com/in/werner-reineke/',
+        'https://www.reineke-technik.de/unternehmen/team/',
       ],
       knowsAbout: [
         'Cybersecurity',
@@ -547,6 +582,24 @@ export default function WernerFrancisReinekeOnePager() {
         'NIS-2',
         'ISO 27001',
       ],
+      subjectOf: t.articles.map((article) => ({
+        '@type': 'Article',
+        headline: article.title,
+        url: article.href,
+      })),
+    });
+
+    ensureSchema('faq-schema').textContent = JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: t.faq.map((item) => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: item.answer,
+        },
+      })),
     });
   }, [language, t]);
 
@@ -614,6 +667,9 @@ export default function WernerFrancisReinekeOnePager() {
                 </span>
                 <span className="block text-neutral-950">{t.heroTitle1}</span>
               </h1>
+              <p className="mt-4 max-w-2xl text-[11px] font-semibold uppercase tracking-[0.26em] text-neutral-500 sm:text-xs">
+                {t.heroMeta}
+              </p>
               <p className="mt-4 max-w-2xl text-lg font-medium leading-8 text-[#b91c1c] sm:text-xl">
                 {t.heroTitle2}
               </p>
@@ -645,6 +701,7 @@ export default function WernerFrancisReinekeOnePager() {
                     <img
                       src={portrait}
                       alt={t.portraitAlt}
+                      fetchPriority="high"
                       className="h-full w-full object-cover object-[center_18%]"
                     />
                   </div>
