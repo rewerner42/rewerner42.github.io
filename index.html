@@ -134,8 +134,37 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="/assets/index-Bb6H1DkK.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CTqzyyhM.css">
+    <script>
+      (function () {
+        var manualKey = 'site-language-manual';
+        var params = new URLSearchParams(window.location.search);
+        var urlLanguage = params.get('lang');
+        var savedLanguage = window.localStorage.getItem(manualKey);
+        var browserLanguages = Array.isArray(navigator.languages) && navigator.languages.length > 0
+          ? navigator.languages
+          : [navigator.language];
+        var browserLanguage = browserLanguages.some(function (entry) {
+          return (entry || '').toLowerCase().startsWith('de');
+        })
+          ? 'de'
+          : 'en';
+        var preferredLanguage =
+          urlLanguage === 'de' || urlLanguage === 'en'
+            ? urlLanguage
+            : savedLanguage === 'de' || savedLanguage === 'en'
+              ? savedLanguage
+              : browserLanguage;
+
+        window.__preferredLanguage = preferredLanguage;
+        document.documentElement.lang = preferredLanguage;
+
+        if (preferredLanguage === 'en') {
+          document.title = 'Werner Francis Reineke | Official Website, Cybersecurity & Speaker';
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-DlwxV87D.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CwvOBtrm.css">
   </head>
   <body>
     <div id="root"></div>
