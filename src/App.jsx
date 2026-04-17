@@ -21,6 +21,16 @@ import {
 import portrait from '../werner-francis-reineke.jpg';
 
 const canonicalUrl = 'https://wernerfrancisreineke.com/';
+const manualLanguageStorageKey = 'site-language-manual';
+const legacyLanguageStorageKey = 'site-language';
+
+const detectBrowserLanguage = () => {
+  if (typeof navigator === 'undefined') return 'de';
+  const browserLanguages = Array.isArray(navigator.languages) && navigator.languages.length > 0
+    ? navigator.languages
+    : [navigator.language];
+  return browserLanguages.some((entry) => (entry || '').toLowerCase().startsWith('de')) ? 'de' : 'en';
+};
 
 export default function WernerFrancisReinekeOnePager() {
   const translations = {
@@ -35,7 +45,8 @@ export default function WernerFrancisReinekeOnePager() {
       navContact: 'Kontakt',
       langDesktop: 'DE / EN',
       mobileMenu: 'Menü',
-      heroTitle1: 'Werner Francis Reineke',
+      heroNameTop: 'Werner Francis',
+      heroNameBottom: 'Reineke',
       heroTitle2: 'Cybersecurity, Strategie und Umsetzung.',
       heroTitle3: '',
       slogan: 'REINEKE REGELT',
@@ -230,7 +241,8 @@ export default function WernerFrancisReinekeOnePager() {
       navContact: 'Contact',
       langDesktop: 'EN / DE',
       mobileMenu: 'Menu',
-      heroTitle1: 'Werner Francis Reineke',
+      heroNameTop: 'Werner Francis',
+      heroNameBottom: 'Reineke',
       heroTitle2: 'Cybersecurity, strategy and execution.',
       heroTitle3: '',
       slogan: 'REINEKE REGELT',
@@ -421,20 +433,26 @@ export default function WernerFrancisReinekeOnePager() {
 
   const detectLanguage = () => {
     if (typeof window === 'undefined') return 'de';
-    const saved = window.localStorage.getItem('site-language');
-    if (saved === 'de' || saved === 'en') return saved;
-    const browserLang = (navigator.language || '').toLowerCase();
-    return browserLang.startsWith('de') ? 'de' : 'en';
-  };
+    const params = new URLSearchParams(window.location.search);
+    const urlLanguage = params.get('lang');
+    if (urlLanguage === 'de' || urlLanguage === 'en') return urlLanguage;
 
-  const [language, setLanguage] = useState('de');
-  useEffect(() => {
-    setLanguage(detectLanguage());
-  }, []);
+    const saved = window.localStorage.getItem(manualLanguageStorageKey);
+    if (saved === 'de' || saved === 'en') return saved;
+
+    return detectBrowserLanguage();
+  };
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      window.localStorage.setItem('site-language', language);
+      window.localStorage.removeItem(legacyLanguageStorageKey);
+    }
+  }, []);
+
+  const [language, setLanguage] = useState(() => detectLanguage());
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
       document.documentElement.lang = language;
     }
   }, [language]);
@@ -604,7 +622,16 @@ export default function WernerFrancisReinekeOnePager() {
   }, [language, t]);
 
   const toggleLanguage = () => {
-    setLanguage((prev) => (prev === 'de' ? 'en' : 'de'));
+    setLanguage((prev) => {
+      const next = prev === 'de' ? 'en' : 'de';
+      if (typeof window !== 'undefined') {
+        window.localStorage.setItem(manualLanguageStorageKey, next);
+        const url = new URL(window.location.href);
+        url.searchParams.set('lang', next);
+        window.history.replaceState({}, '', url.toString());
+      }
+      return next;
+    });
   };
 
   const fadeUp = {
@@ -665,7 +692,8 @@ export default function WernerFrancisReinekeOnePager() {
                 <span className="mb-4 block text-3xl font-semibold uppercase tracking-[0.34em] text-[#b91c1c] sm:text-4xl lg:text-5xl" style={{ fontFamily: '"Avenir Next Condensed", "Arial Narrow", "Avenir Next", sans-serif' }}>
                   {t.slogan}
                 </span>
-                <span className="block text-neutral-950">{t.heroTitle1}</span>
+                <span className="block text-neutral-950 md:whitespace-nowrap">{t.heroNameTop}</span>
+                <span className="block text-neutral-950">{t.heroNameBottom}</span>
               </h1>
               <p className="mt-4 max-w-2xl text-[11px] font-semibold uppercase tracking-[0.26em] text-neutral-500 sm:text-xs">
                 {t.heroMeta}
