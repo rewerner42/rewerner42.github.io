@@ -18,9 +18,8 @@ import {
   Shield,
   Twitter,
 } from 'lucide-react';
-import portrait from '../werner-francis-reineke.jpg';
-
 const canonicalUrl = 'https://wernerfrancisreineke.com/';
+const portrait = '/werner-francis-reineke.jpg';
 const manualLanguageStorageKey = 'site-language-manual';
 const legacyLanguageStorageKey = 'site-language';
 
@@ -37,7 +36,7 @@ export default function WernerFrancisReinekeOnePager() {
     de: {
       siteTitle: 'Werner Francis Reineke | Offizielle Website, Cybersecurity & Speaker',
       siteDescription:
-        'Werner Francis Reineke ist Geschäftsführer der Reineke Technik GmbH und Ansprechpartner für Cybersecurity, IT-Sicherheitsstrategie, NIS-2, Automatisierung und Fachvorträge.',
+        'Offizielle Website von Werner Francis Reineke — Geschäftsführer der Reineke Technik GmbH, Speaker und Ansprechpartner für Cybersecurity, IT-Sicherheitsstrategie und NIS-2.',
       navAbout: 'Profil',
       navCv: 'Lebenslauf',
       navServices: 'Kompetenzen',
@@ -51,7 +50,7 @@ export default function WernerFrancisReinekeOnePager() {
       heroTitle3: '',
       heroMeta: 'Geschäftsführer Reineke Technik GmbH · Cybersecurity Speaker · M.Sc. Cybersecurity',
       heroText:
-        'Werner Francis Reineke hilft Unternehmen dabei, IT-Sicherheitsrisiken früh zu erkennen, praktikable Schutzmaßnahmen umzusetzen und technische Prozesse so aufzustellen, dass Sicherheit, Effizienz und Handlungsfähigkeit im Alltag steigen. Das ist besonders relevant für Geschäftsführung, IT-Verantwortliche und Teams, die Cybersecurity, NIS-2, Automatisierung oder digitale Weiterentwicklung mit klaren Prioritäten voranbringen wollen.',
+        'Werner hilft Unternehmen dabei, IT-Sicherheitsrisiken früh zu erkennen, praktikable Schutzmaßnahmen umzusetzen und technische Prozesse so aufzustellen, dass Sicherheit, Effizienz und Handlungsfähigkeit im Alltag steigen. Besonders relevant für Geschäftsführung, IT-Verantwortliche und Teams, die Cybersecurity, NIS-2, Automatisierung oder digitale Weiterentwicklung mit klaren Prioritäten voranbringen wollen.',
       heroPrimary: 'Kontakt aufnehmen',
       heroBooking: 'Termin buchen',
       heroSecondary: 'Kompetenzen ansehen',
@@ -64,31 +63,31 @@ export default function WernerFrancisReinekeOnePager() {
       portraitAlt: 'Portrait von Werner Francis Reineke',
       portraitCaption: 'Vertrauen ist gut, Multi-Faktor-Authentifizierung ist besser.',
       aboutEyebrow: 'Profil',
-      aboutTitle: 'Werner Francis Reineke als Ansprechpartner für IT-Sicherheit, Resilienz und digitale Weiterentwicklung',
+      aboutTitle: 'Ansprechpartner für IT-Sicherheit, Resilienz und digitale Weiterentwicklung',
       aboutText:
-        'Werner Francis Reineke verbindet unternehmerisches Denken mit technischer Tiefe in Cybersecurity, IT-Sicherheitsstrategie und digitaler Weiterentwicklung. Im Mittelpunkt stehen belastbare Sicherheitsstrukturen, klare Prioritäten und Lösungen, die in der Praxis funktionieren.',
+        'Werner verbindet unternehmerisches Denken mit technischer Tiefe in Cybersecurity, IT-Sicherheitsstrategie und digitaler Weiterentwicklung. Im Mittelpunkt stehen belastbare Sicherheitsstrukturen, klare Prioritäten und Lösungen, die in der Praxis funktionieren.',
       cvEyebrow: 'Lebenslauf',
-      cvTitle: 'Lebenslauf von Werner Francis Reineke',
+      cvTitle: 'Lebenslauf',
       cvText:
-        'Der Lebenslauf von Werner Francis Reineke zeigt seinen fachlichen Weg von Maschinenbau und Softwareentwicklung über Cybersecurity bis zur unternehmerischen Verantwortung in der Reineke Technik GmbH.',
+        'Der Werdegang zeigt einen fachlichen Weg von Maschinenbau und Softwareentwicklung über Cybersecurity bis zur unternehmerischen Verantwortung in der Reineke Technik GmbH.',
       cvCareerTitle: 'Beruflicher Werdegang',
       cvEducationTitle: 'Ausbildung',
       servicesEyebrow: 'Kompetenzen',
       servicesTitle: 'Leistungsfelder mit klarem Nutzen für Unternehmen',
       servicesText:
-        'Die inhaltlichen Schwerpunkte von Werner Francis Reineke reichen von Sicherheitsanalysen und Governance über Schutzmaßnahmen in der Infrastruktur bis hin zu KI-gestützter Automatisierung. Das Ziel ist immer derselbe: Unternehmen sicherer, effizienter und widerstandsfähiger machen.',
-      referencesTitle: 'Fokusthemen von Werner Francis Reineke',
+        'Die inhaltlichen Schwerpunkte reichen von Sicherheitsanalysen und Governance über Schutzmaßnahmen in der Infrastruktur bis hin zu KI-gestützter Automatisierung. Das Ziel: Unternehmen sicherer, effizienter und widerstandsfähiger machen.',
+      referencesTitle: 'Fokusthemen',
       referencesText:
-        'Diese Themen prägen die Arbeit von Werner Francis Reineke in Sicherheitsfragen, Technologieentscheidungen und der praktischen Umsetzung im Unternehmensalltag.',
+        'Diese Themen prägen die Arbeit in Sicherheitsfragen, Technologieentscheidungen und der praktischen Umsetzung im Unternehmensalltag.',
       insightsEyebrow: 'Impulse',
-      insightsTitle: 'Impulse von Werner Francis Reineke',
+      insightsTitle: 'Impulse, Interviews und Beiträge',
       insightsText:
-        'Hier finden sich ausgewählte Beiträge, Interviews und Fachthemen, die die Arbeit und Perspektive von Werner Francis Reineke kurz einordnen.',
+        'Ausgewählte Beiträge, Interviews und Fachthemen, die Werners Arbeit und Perspektive kurz einordnen.',
       readMore: 'Mehr dazu',
       ctaEyebrow: 'Direkter Draht',
-      ctaTitle: 'Kontakt zu Werner Francis Reineke',
+      ctaTitle: 'Kontakt aufnehmen',
       ctaText:
-        'Wer ein Gespräch zu Cybersecurity, IT-Sicherheitsstrategie, NIS-2, ISO 27001, Automatisierung oder zur Zusammenarbeit mit Reineke Technik sucht, findet hier den passenden Einstieg.',
+        'Für ein Gespräch zu Cybersecurity, IT-Sicherheitsstrategie, NIS-2, ISO 27001, Automatisierung oder zur Zusammenarbeit mit Reineke Technik findest du hier den passenden Einstieg.',
       bookingLabel: 'Termin direkt buchen',
       bookingUrl: 'https://outlook.office.com/bookwithme/user/99dfe8391d044c208563dd3afbc7439f@reineke-technik.de?anonymous&ismsaljsauthenabled&ep=plink',
       socialsEyebrow: 'Social Media',
@@ -96,16 +95,16 @@ export default function WernerFrancisReinekeOnePager() {
       socialPersonalTitle: 'Persönlich',
       socialCompanyTitle: 'Reineke Technik',
       speakerEyebrow: 'Speaker',
-      speakerTitle: 'Werner Francis Reineke als Cybersecurity Speaker',
+      speakerTitle: 'Cybersecurity Speaker',
       speakerText:
-        'Werner Francis Reineke spricht über Cybersecurity, IT-Sicherheitsstrategie, NIS-2, Automatisierung und die praktische Umsetzung von Sicherheit im Mittelstand. Seine Vorträge verbinden technische Tiefe mit unternehmerischer Verständlichkeit und eignen sich für Veranstaltungen, Fachforen, Unternehmensformate und Entscheider-Runden.',
+        'Werner spricht über Cybersecurity, IT-Sicherheitsstrategie, NIS-2, Automatisierung und die praktische Umsetzung von Sicherheit im Mittelstand. Seine Vorträge verbinden technische Tiefe mit unternehmerischer Verständlichkeit und eignen sich für Veranstaltungen, Fachforen, Unternehmensformate und Entscheider-Runden.',
       speakerPoints: [
         'Vorträge zu Cybersecurity, NIS-2, Resilienz und IT-Sicherheitsstrategie',
         'Praxisnahe Einordnung für Mittelstand, Geschäftsführung und technische Teams',
         'Geeignet für Keynotes, Panels, Fachveranstaltungen und interne Unternehmensformate',
       ],
       faqEyebrow: 'FAQ',
-      faqTitle: 'Häufige Fragen zu Werner Francis Reineke',
+      faqTitle: 'Häufige Fragen',
       contactBoxTitle: 'Kontakt',
       contactAddressLine1: 'Reineke Technik GmbH',
       contactAddressLine2: 'Geseker Straße 26',
@@ -190,14 +189,14 @@ export default function WernerFrancisReinekeOnePager() {
       faq: [
         {
           question: 'Für welche Themen steht Werner Francis Reineke?',
-          answer: 'Werner Francis Reineke steht für Cybersecurity, IT-Sicherheitsstrategie, NIS-2, Automatisierung und die praktische Umsetzung technischer Lösungen im Unternehmensalltag.',
+          answer: 'Schwerpunkte sind Cybersecurity, IT-Sicherheitsstrategie, NIS-2, Automatisierung und die praktische Umsetzung technischer Lösungen im Unternehmensalltag.',
         },
         {
-          question: 'Kann man Werner Francis Reineke für Vorträge oder Fachimpulse anfragen?',
-          answer: 'Ja. Werner Francis Reineke kann für Vorträge, Panels, Unternehmensveranstaltungen und Fachformate rund um Cybersecurity, IT-Sicherheit und digitale Transformation angefragt werden.',
+          question: 'Kann Werner für Vorträge oder Fachimpulse angefragt werden?',
+          answer: 'Ja. Vorträge, Panels, Unternehmensveranstaltungen und Fachformate rund um Cybersecurity, IT-Sicherheit und digitale Transformation sind möglich.',
         },
         {
-          question: 'Wie kann man mit Werner Francis Reineke in Kontakt treten?',
+          question: 'Wie kommt man mit Werner in Kontakt?',
           answer: 'Für ein persönliches Gespräch stehen E-Mail, Telefon, LinkedIn und die direkte Terminbuchung über den Buchungslink auf dieser Website zur Verfügung.',
         },
       ],
@@ -232,7 +231,7 @@ export default function WernerFrancisReinekeOnePager() {
     en: {
       siteTitle: 'Werner Francis Reineke | Official Website, Cybersecurity & Speaker',
       siteDescription:
-        'Werner Francis Reineke is Managing Director of Reineke Technik GmbH and a contact for cybersecurity, IT security strategy, NIS-2, automation, and speaking engagements.',
+        'Official website of Werner Francis Reineke — Managing Director of Reineke Technik GmbH, speaker, and contact for cybersecurity, IT security strategy, and NIS-2.',
       navAbout: 'Profile',
       navCv: 'Resume',
       navServices: 'Expertise',
@@ -246,7 +245,7 @@ export default function WernerFrancisReinekeOnePager() {
       heroTitle3: '',
       heroMeta: 'Managing Director Reineke Technik GmbH · Cybersecurity Speaker · M.Sc. Cybersecurity',
       heroText:
-        'Werner Francis Reineke helps companies identify IT security risks early, implement practical protective measures, and improve technical processes in ways that strengthen security, efficiency, and day-to-day resilience. This is especially valuable for business leaders, IT decision-makers, and teams working on cybersecurity, NIS-2, automation, or digital transformation with clear priorities.',
+        'Werner helps companies identify IT security risks early, implement practical protective measures, and improve technical processes in ways that strengthen security, efficiency, and day-to-day resilience. Especially valuable for business leaders, IT decision-makers, and teams working on cybersecurity, NIS-2, automation, or digital transformation with clear priorities.',
       heroPrimary: 'Get in touch',
       heroBooking: 'Book a call',
       heroSecondary: 'View expertise',
@@ -259,31 +258,31 @@ export default function WernerFrancisReinekeOnePager() {
       portraitAlt: 'Portrait of Werner Francis Reineke',
       portraitCaption: 'Trust is good, multi-factor authentication is better.',
       aboutEyebrow: 'Profile',
-      aboutTitle: 'Werner Francis Reineke as a contact for IT security, resilience, and digital progress',
+      aboutTitle: 'A contact for IT security, resilience, and digital progress',
       aboutText:
-        'Werner Francis Reineke combines business-minded leadership with technical depth in cybersecurity, IT security strategy, and digital transformation. The focus is on resilient security structures, clear priorities, and solutions that work in practice.',
+        'Werner combines business-minded leadership with technical depth in cybersecurity, IT security strategy, and digital transformation. The focus is on resilient security structures, clear priorities, and solutions that work in practice.',
       cvEyebrow: 'Resume',
-      cvTitle: 'Resume of Werner Francis Reineke',
+      cvTitle: 'Resume',
       cvText:
-        'The resume of Werner Francis Reineke outlines his path from mechanical engineering and software development to cybersecurity and executive responsibility at Reineke Technik GmbH.',
+        'A path from mechanical engineering and software development through cybersecurity to executive responsibility at Reineke Technik GmbH.',
       cvCareerTitle: 'Career history',
       cvEducationTitle: 'Education',
       servicesEyebrow: 'Expertise',
       servicesTitle: 'Capability areas with clear business value',
       servicesText:
-        'Werner Francis Reineke focuses on security assessments, governance, protective infrastructure measures, and AI-driven automation. The underlying goal remains the same: helping companies become more secure, efficient, and resilient.',
-      referencesTitle: 'Core focus topics of Werner Francis Reineke',
+        'The focus areas range from security assessments and governance to protective infrastructure measures and AI-driven automation. The underlying goal: helping companies become more secure, efficient, and resilient.',
+      referencesTitle: 'Core focus topics',
       referencesText:
-        'These topics define the work of Werner Francis Reineke in security matters, technology decisions, and practical implementation in day-to-day business.',
+        'These topics shape the work in security matters, technology decisions, and practical implementation in day-to-day business.',
       insightsEyebrow: 'Insights',
-      insightsTitle: 'Insights from Werner Francis Reineke',
+      insightsTitle: 'Articles, interviews and impulses',
       insightsText:
-        'This section highlights selected articles, interviews, and topics that reflect the work and perspective of Werner Francis Reineke.',
+        'Selected articles, interviews, and topics that reflect Werner’s work and perspective.',
       readMore: 'Learn more',
       ctaEyebrow: 'Direct contact',
-      ctaTitle: 'Contact Werner Francis Reineke',
+      ctaTitle: 'Get in touch',
       ctaText:
-        'If you are looking for an exchange on cybersecurity, IT security strategy, NIS-2, ISO 27001, automation, or collaboration with Reineke Technik, this is the right starting point.',
+        'For an exchange on cybersecurity, IT security strategy, NIS-2, ISO 27001, automation, or collaboration with Reineke Technik, this is the right starting point.',
       bookingLabel: 'Book directly',
       bookingUrl: 'https://outlook.office.com/bookwithme/user/99dfe8391d044c208563dd3afbc7439f@reineke-technik.de?anonymous&ismsaljsauthenabled&ep=plink',
       socialsEyebrow: 'Social Media',
@@ -291,16 +290,16 @@ export default function WernerFrancisReinekeOnePager() {
       socialPersonalTitle: 'Personal',
       socialCompanyTitle: 'Reineke Technik',
       speakerEyebrow: 'Speaker',
-      speakerTitle: 'Werner Francis Reineke as a Cybersecurity Speaker',
+      speakerTitle: 'Cybersecurity Speaker',
       speakerText:
-        'Werner Francis Reineke speaks on cybersecurity, IT security strategy, NIS-2, automation, and the practical implementation of security in mid-sized businesses. His talks combine technical depth with business clarity and fit conferences, expert forums, company events, and leadership formats.',
+        'Werner speaks on cybersecurity, IT security strategy, NIS-2, automation, and the practical implementation of security in mid-sized businesses. His talks combine technical depth with business clarity and fit conferences, expert forums, company events, and leadership formats.',
       speakerPoints: [
         'Talks on cybersecurity, NIS-2, resilience, and IT security strategy',
         'Practical framing for SMEs, executive leadership, and technical teams',
         'Suitable for keynotes, panels, specialist events, and internal company formats',
       ],
       faqEyebrow: 'FAQ',
-      faqTitle: 'Frequently asked questions about Werner Francis Reineke',
+      faqTitle: 'Frequently asked questions',
       contactBoxTitle: 'Contact',
       contactAddressLine1: 'Reineke Technik GmbH',
       contactAddressLine2: 'Geseker Straße 26',
@@ -385,15 +384,15 @@ export default function WernerFrancisReinekeOnePager() {
       faq: [
         {
           question: 'What topics define Werner Francis Reineke?',
-          answer: 'Werner Francis Reineke is closely associated with cybersecurity, IT security strategy, NIS-2, automation, and the practical implementation of technical solutions in business environments.',
+          answer: 'Core topics are cybersecurity, IT security strategy, NIS-2, automation, and the practical implementation of technical solutions in business environments.',
         },
         {
-          question: 'Can Werner Francis Reineke be booked for talks or expert sessions?',
-          answer: 'Yes. Werner Francis Reineke can be requested for talks, panels, company events, and specialist formats focused on cybersecurity, IT security, and digital transformation.',
+          question: 'Can Werner be booked for talks or expert sessions?',
+          answer: 'Yes. Talks, panels, company events, and specialist formats around cybersecurity, IT security, and digital transformation are available on request.',
         },
         {
-          question: 'How can people get in touch with Werner Francis Reineke?',
-          answer: 'People can reach out via email, phone, LinkedIn, or by using the direct booking link provided on this website.',
+          question: 'How can people get in touch?',
+          answer: 'You can reach out via email, phone, LinkedIn, or by using the direct booking link provided on this website.',
         },
       ],
       articles: [
@@ -479,10 +478,6 @@ export default function WernerFrancisReinekeOnePager() {
     canonical.setAttribute('href', canonicalUrl);
 
     ensureMeta('description', t.siteDescription);
-    ensureMeta(
-      'keywords',
-      'Werner Francis Reineke, Werner Reineke, Werner Francis Reineke Cybersecurity, Werner Francis Reineke Speaker, Reineke Technik, NIS-2, IT-Sicherheitsstrategie, KI-Automatisierung'
-    );
     ensureMeta('author', 'Werner Francis Reineke');
     ensureMeta('robots', 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1');
     ensureMeta('og:title', t.siteTitle, 'property');
@@ -512,8 +507,8 @@ export default function WernerFrancisReinekeOnePager() {
     const personId = `${canonicalUrl}#person`;
     const personDescription =
       language === 'de'
-        ? 'Werner Francis Reineke ist Geschäftsführer der Reineke Technik GmbH und Ansprechpartner für Cybersecurity, IT-Sicherheitsstrategie, NIS-2, Automatisierung und Vorträge.'
-        : 'Werner Francis Reineke is Managing Director of Reineke Technik GmbH and a contact for cybersecurity, IT security strategy, NIS-2, automation, and speaking engagements.';
+        ? 'Geschäftsführer der Reineke Technik GmbH, Speaker und Ansprechpartner für Cybersecurity, IT-Sicherheitsstrategie und NIS-2.'
+        : 'Managing Director of Reineke Technik GmbH, speaker, and contact for cybersecurity, IT security strategy, and NIS-2.';
 
     ensureSchema('website-schema').textContent = JSON.stringify({
       '@context': 'https://schema.org',
@@ -591,13 +586,7 @@ export default function WernerFrancisReinekeOnePager() {
         'https://www.linkedin.com/in/werner-reineke/',
         'https://www.reineke-technik.de/unternehmen/team/',
       ],
-      knowsAbout: [
-        'Cybersecurity',
-        'IT-Sicherheitsstrategie',
-        'KI-Automatisierung',
-        'NIS-2',
-        'ISO 27001',
-      ],
+      knowsAbout: ['Cybersecurity', 'IT-Sicherheitsstrategie', 'NIS-2'],
       subjectOf: t.articles.map((article) => ({
         '@type': 'Article',
         headline: article.title,
@@ -724,7 +713,7 @@ export default function WernerFrancisReinekeOnePager() {
                     <img
                       src={portrait}
                       alt={t.portraitAlt}
-                      fetchPriority="high"
+                      fetchpriority="high"
                       className="h-full w-full object-cover object-[center_18%]"
                     />
                   </div>
