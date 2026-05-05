@@ -177,7 +177,7 @@ function buildSchemas(language, t) {
         nationality: { '@type': 'Country', name: 'Germany' },
         knowsLanguage: ['de', 'en'],
         sameAs: [
-          'https://www.linkedin.com/in/werner-reineke/',
+          'https://www.linkedin.com/in/wernerfrancisreineke/',
           'https://www.reineke-technik.de/unternehmen/team/',
         ],
         knowsAbout: ['Cybersecurity', 'IT-Sicherheitsstrategie', 'NIS-2'],
