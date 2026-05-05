@@ -40,6 +40,23 @@ function escapeHtml(value) {
     .replace(/"/g, '&quot;');
 }
 
+const ORG_ID = 'https://www.reineke-technik.de/#organization';
+const ORG_ADDRESS = {
+  '@type': 'PostalAddress',
+  streetAddress: 'Geseker Straße 26',
+  postalCode: '33154',
+  addressLocality: 'Salzkotten',
+  addressRegion: 'NRW',
+  addressCountry: 'DE',
+};
+const ORG_SAME_AS = [
+  'https://www.linkedin.com/company/reineke-technik/',
+  'https://www.instagram.com/reineketechnik/',
+  'https://x.com/ReinekeTechnik',
+];
+const BREADCRUMB_HOME_NAME = { de: 'Startseite', en: 'Home' };
+const BREADCRUMB_PROFILE_NAME = { de: 'Profil', en: 'Profile' };
+
 function buildSchemas(language, t) {
   const url = URLS[language];
   const personId = `${SITE_ORIGIN}/#person`;
@@ -56,6 +73,7 @@ function buildSchemas(language, t) {
         name: 'Werner Francis Reineke',
         inLanguage: HTML_LANG[language],
         description: t.siteDescription,
+        publisher: { '@id': personId },
       },
     },
     {
@@ -70,6 +88,46 @@ function buildSchemas(language, t) {
         inLanguage: HTML_LANG[language],
         mainEntity: { '@id': personId },
         isPartOf: { '@id': websiteId },
+        breadcrumb: { '@id': `${url}#breadcrumb` },
+      },
+    },
+    {
+      id: 'breadcrumb-schema',
+      data: {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        '@id': `${url}#breadcrumb`,
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: BREADCRUMB_HOME_NAME[language],
+            item: url,
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: BREADCRUMB_PROFILE_NAME[language],
+          },
+        ],
+      },
+    },
+    {
+      id: 'organization-schema',
+      data: {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        '@id': ORG_ID,
+        name: 'Reineke Technik GmbH',
+        legalName: 'Reineke Technik GmbH',
+        url: 'https://www.reineke-technik.de/',
+        logo: `${SITE_ORIGIN}/wfr_logo/logo-wfr-master.png`,
+        image: `${SITE_ORIGIN}/wfr_logo/logo-wfr-master.png`,
+        email: 'info@reineke-technik.de',
+        telephone: '+49 5258 987282',
+        address: ORG_ADDRESS,
+        sameAs: ORG_SAME_AS,
+        founder: { '@id': personId },
       },
     },
     {
@@ -89,11 +147,19 @@ function buildSchemas(language, t) {
           `${SITE_ORIGIN}/werner-francis-reineke.jpg`,
           `${SITE_ORIGIN}/wfr_logo/og-image.png`,
         ],
-        worksFor: {
-          '@type': 'Organization',
-          name: 'Reineke Technik GmbH',
-          url: 'https://www.reineke-technik.de/',
-          logo: `${SITE_ORIGIN}/wfr_logo/logo-wfr-master.png`,
+        worksFor: { '@id': ORG_ID },
+        workLocation: {
+          '@type': 'Place',
+          name: 'Salzkotten',
+          address: ORG_ADDRESS,
+        },
+        contactPoint: {
+          '@type': 'ContactPoint',
+          contactType: 'business',
+          email: 'info@reineke-technik.de',
+          telephone: '+49 5258 987282',
+          availableLanguage: ['de', 'en'],
+          areaServed: 'DE',
         },
         alumniOf: [
           { '@type': 'CollegeOrUniversity', name: 'DePaul University Jarvis College of Computing and Digital Media' },
@@ -108,6 +174,7 @@ function buildSchemas(language, t) {
           { '@type': 'Occupation', name: 'Cybersecurity Speaker' },
         ],
         jobTitle: JOB_TITLE[language],
+        nationality: { '@type': 'Country', name: 'Germany' },
         knowsLanguage: ['de', 'en'],
         sameAs: [
           'https://www.linkedin.com/in/werner-reineke/',
