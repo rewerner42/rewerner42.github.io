@@ -18,9 +18,8 @@ import {
   Shield,
   Twitter,
 } from 'lucide-react';
-import portrait from '../werner-francis-reineke.jpg';
-
 const canonicalUrl = 'https://wernerfrancisreineke.com/';
+const portrait = '/werner-francis-reineke.jpg';
 const manualLanguageStorageKey = 'site-language-manual';
 const legacyLanguageStorageKey = 'site-language';
 
@@ -714,7 +713,7 @@ export default function WernerFrancisReinekeOnePager() {
                     <img
                       src={portrait}
                       alt={t.portraitAlt}
-                      fetchPriority="high"
+                      fetchpriority="high"
                       className="h-full w-full object-cover object-[center_18%]"
                     />
                   </div>
