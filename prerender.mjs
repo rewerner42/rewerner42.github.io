@@ -53,6 +53,7 @@ const ORG_SAME_AS = [
   'https://www.linkedin.com/company/reineke-technik/',
   'https://www.instagram.com/reineketechnik/',
   'https://x.com/ReinekeTechnik',
+  'https://www.wikidata.org/wiki/Q139678017',
 ];
 const BREADCRUMB_HOME_NAME = { de: 'Startseite', en: 'Home' };
 const BREADCRUMB_PROFILE_NAME = { de: 'Profil', en: 'Profile' };
