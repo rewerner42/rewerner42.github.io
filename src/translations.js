@@ -154,6 +154,10 @@ export const translations = {
     ],
     faq: [
       {
+        question: 'Ist Werner Reineke die gleiche Person wie Werner Francis Reineke?',
+        answer: 'Ja. „Werner Reineke" ist die kurze Form. Beide Schreibweisen verweisen auf dieselbe Person — Werner Francis Reineke, Geschäftsführer der Reineke Technik GmbH.',
+      },
+      {
         question: 'Für welche Themen steht Werner Francis Reineke?',
         answer: 'Schwerpunkte sind Cybersecurity, IT-Sicherheitsstrategie, NIS-2, Automatisierung und die praktische Umsetzung technischer Lösungen im Unternehmensalltag.',
       },
@@ -348,6 +352,10 @@ export const translations = {
       },
     ],
     faq: [
+      {
+        question: 'Is Werner Reineke the same person as Werner Francis Reineke?',
+        answer: 'Yes. "Werner Reineke" is the short form. Both names refer to the same person — Werner Francis Reineke, Managing Director of Reineke Technik GmbH.',
+      },
       {
         question: 'What topics define Werner Francis Reineke?',
         answer: 'Core topics are cybersecurity, IT security strategy, NIS-2, automation, and the practical implementation of technical solutions in business environments.',
