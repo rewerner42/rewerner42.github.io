@@ -31,7 +31,7 @@ export const translations = {
     aboutEyebrow: 'Profil',
     aboutTitle: 'Ansprechpartner für IT-Sicherheit, Resilienz und digitale Weiterentwicklung',
     aboutText:
-      'Werner verbindet unternehmerisches Denken mit technischer Tiefe in Cybersecurity, IT-Sicherheitsstrategie und digitaler Weiterentwicklung. Im Mittelpunkt stehen belastbare Sicherheitsstrukturen, klare Prioritäten und Lösungen, die in der Praxis funktionieren.',
+      'Werner Francis Reineke — im Alltag oft kurz Werner Reineke — verbindet unternehmerisches Denken mit technischer Tiefe in Cybersecurity, IT-Sicherheitsstrategie und digitaler Weiterentwicklung. Im Mittelpunkt stehen belastbare Sicherheitsstrukturen, klare Prioritäten und Lösungen, die in der Praxis funktionieren.',
     cvEyebrow: 'Lebenslauf',
     cvTitle: 'Lebenslauf',
     cvText:
@@ -230,7 +230,7 @@ export const translations = {
     aboutEyebrow: 'Profile',
     aboutTitle: 'A contact for IT security, resilience, and digital progress',
     aboutText:
-      'Werner combines business-minded leadership with technical depth in cybersecurity, IT security strategy, and digital transformation. The focus is on resilient security structures, clear priorities, and solutions that work in practice.',
+      'Werner Francis Reineke — often simply Werner Reineke — combines business-minded leadership with technical depth in cybersecurity, IT security strategy, and digital transformation. The focus is on resilient security structures, clear priorities, and solutions that work in practice.',
     cvEyebrow: 'Resume',
     cvTitle: 'Resume',
     cvText:
